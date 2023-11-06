@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daily Target</title>
+</head>
+<body>
+    <h1>Daily Target</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>Target</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for day, target in user_target_settings.items() %}
+            <tr>
+                <td>{{ day }}</td>
+                <td>
+                    <select id="target_{{ day|lower }}" data-day="{{ day }}">
+                        {% for value in target_values %}
+                            <option value="{{ value }}" {% if target == value %}selected{% endif %}>{{ value }}%</option>
+                        {% endfor %}
+                    </select>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <div class="buttons">
+        <button type="button" class="button" id="updateButton">Update</button>
+    </div>
+    <br>
+    <br>
+    <h1>ByBit Settings</h1>
+    <table>
+        <tr>
+            <th>API Key</th>
+            <td><input type="text" id="api_key" value="{{ bybit_config.API_KEY }}"></td>
+        </tr>
+        <tr>
+            <th>Secret</th>
+            <td><input type="text" id="secret" value="{{ bybit_config.SECRET }}"></td>
+        </tr>
+        <tr>
+            <th>Trading Type</th>
+            <td>
+                <select id="trading_type">
+                    <option value="market" selected>Market</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th>Stop Loss</th>
+            <td>
+                <select id="stop_loss">
+                    {% for value in stoploss_values %}
+                        <option value="{{ value }}" {% if value == bybit_config.STOP_LOSS %}selected{% endif %}>{{ value }}</option>
+                    {% endfor %}
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th>Order Size</th>
+            <td>
+                <select id="order_size">
+                    {% for value in ordersize_values %}
+                        <option value="{{ value }}" {% if value == bybit_config.ORDER_SIZE %}selected{% endif %}>{{ value }}</option>
+                    {% endfor %}
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button type="button" class="button" id="bybitUpdateButton">Update</button>
+            </td>
+        </tr>
+    </table>
+    <script src="{{ url_for('static', filename='js/update_settings.js') }}"></script>
+</body>
+</html>

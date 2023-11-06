@@ -1,0 +1,6 @@
+psql -U postgres
+create database umronline_db;
+CREATE USER umronline WITH PASSWORD 'youmronly';
+ALTER DATABASE umronline_db OWNER TO umronline;
+
+psql -U umronline -d umronline_db -a -f sql_scripts.sql
