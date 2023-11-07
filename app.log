@@ -1,0 +1,423 @@
+2023-11-07 17:43:04 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-07 17:43:04 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-07 17:43:04 [INFO]:  * Restarting with stat
+2023-11-07 17:43:04 [WARNING]:  * Debugger is active!
+2023-11-07 17:43:04 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 17:43:30 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-07 17:43:30 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-07 17:43:30 [INFO]:  * Restarting with stat
+2023-11-07 17:43:30 [WARNING]:  * Debugger is active!
+2023-11-07 17:43:30 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 17:43:56 [INFO]: 127.0.0.1 - - [07/Nov/2023 17:43:56] "GET / HTTP/1.1" 200 -
+2023-11-07 17:43:56 [INFO]: 127.0.0.1 - - [07/Nov/2023 17:43:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-11-07 17:43:59 [INFO]: 127.0.0.1 - - [07/Nov/2023 17:43:59] "GET /login HTTP/1.1" 200 -
+2023-11-07 17:43:59 [INFO]: 127.0.0.1 - - [07/Nov/2023 17:43:59] "GET /static/css/login_styles.css HTTP/1.1" 200 -
+2023-11-07 17:44:17 [INFO]: 127.0.0.1 - - [07/Nov/2023 17:44:17] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-11-07 17:44:17 [INFO]: 127.0.0.1 - - [07/Nov/2023 17:44:17] "GET / HTTP/1.1" 200 -
+2023-11-07 17:44:48 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\api_call.py', reloading
+2023-11-07 17:44:48 [INFO]:  * Restarting with stat
+2023-11-07 17:44:49 [WARNING]:  * Debugger is active!
+2023-11-07 17:44:49 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 17:46:23 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\api_call.py', reloading
+2023-11-07 17:46:23 [INFO]:  * Restarting with stat
+2023-11-07 17:46:23 [WARNING]:  * Debugger is active!
+2023-11-07 17:46:23 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 17:49:50 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\api_call.py', reloading
+2023-11-07 17:49:50 [INFO]:  * Restarting with stat
+2023-11-07 17:49:51 [WARNING]:  * Debugger is active!
+2023-11-07 17:49:51 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 17:50:03 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\api_call.py', reloading
+2023-11-07 17:50:03 [INFO]:  * Restarting with stat
+2023-11-07 17:50:04 [WARNING]:  * Debugger is active!
+2023-11-07 17:50:04 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 17:50:32 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\api_call.py', reloading
+2023-11-07 17:50:32 [INFO]:  * Restarting with stat
+2023-11-07 17:50:33 [WARNING]:  * Debugger is active!
+2023-11-07 17:50:33 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 17:50:43 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\api_call.py', reloading
+2023-11-07 17:50:43 [INFO]:  * Restarting with stat
+2023-11-07 17:50:43 [WARNING]:  * Debugger is active!
+2023-11-07 17:50:43 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 17:50:53 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\api_call.py', reloading
+2023-11-07 17:50:53 [INFO]:  * Restarting with stat
+2023-11-07 17:50:53 [WARNING]:  * Debugger is active!
+2023-11-07 17:50:53 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 17:51:41 [INFO]: 127.0.0.1 - - [07/Nov/2023 17:51:41] "[35m[1mPOST /tv_webbhook/gg HTTP/1.1[0m" 500 -
+2023-11-07 17:52:36 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\bybit_client.py', reloading
+2023-11-07 17:52:36 [INFO]:  * Restarting with stat
+2023-11-07 17:52:37 [WARNING]:  * Debugger is active!
+2023-11-07 17:52:37 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 17:52:52 [INFO]: 127.0.0.1 - - [07/Nov/2023 17:52:52] "[35m[1mPOST /tv_webbhook/gg HTTP/1.1[0m" 500 -
+2023-11-07 17:53:27 [INFO]: 127.0.0.1 - - [07/Nov/2023 17:53:27] "[35m[1mPOST /tv_webbhook/gg HTTP/1.1[0m" 500 -
+2023-11-07 17:54:43 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-07 17:54:43 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-07 17:54:43 [INFO]:  * Restarting with stat
+2023-11-07 17:54:43 [WARNING]:  * Debugger is active!
+2023-11-07 17:54:43 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 17:54:54 [INFO]: 127.0.0.1 - - [07/Nov/2023 17:54:54] "[35m[1mPOST /tv_webbhook/gg HTTP/1.1[0m" 500 -
+2023-11-07 17:55:13 [INFO]: 127.0.0.1 - - [07/Nov/2023 17:55:13] "[35m[1mPOST /tv_webbhook/gg HTTP/1.1[0m" 500 -
+2023-11-07 17:56:52 [INFO]: 127.0.0.1 - - [07/Nov/2023 17:56:52] "[35m[1mPOST /tv_webbhook/gg HTTP/1.1[0m" 500 -
+2023-11-07 17:58:00 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-07 17:58:00 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-07 17:58:00 [INFO]:  * Restarting with stat
+2023-11-07 17:58:01 [WARNING]:  * Debugger is active!
+2023-11-07 17:58:01 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 17:59:18 [ERROR]: Bybit error: Market order amount decimal too long (ErrCode: 170148) (ErrTime: 13:59:18).
+Request \u2192 POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "XRPUSDT", "side": "BUY", "orderType": "Market", "qty": "8.186658907"}.
+2023-11-07 18:00:07 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-07 18:00:07 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-07 18:00:07 [INFO]:  * Restarting with stat
+2023-11-07 18:00:08 [WARNING]:  * Debugger is active!
+2023-11-07 18:00:08 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 18:03:35 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\bybit_client.py', reloading
+2023-11-07 18:03:35 [INFO]:  * Restarting with stat
+2023-11-07 18:03:36 [WARNING]:  * Debugger is active!
+2023-11-07 18:03:36 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 18:03:58 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-07 18:03:58 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-07 18:03:58 [INFO]:  * Restarting with stat
+2023-11-07 18:03:59 [WARNING]:  * Debugger is active!
+2023-11-07 18:03:59 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 18:05:06 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\bybit_client.py', reloading
+2023-11-07 18:05:07 [INFO]:  * Restarting with stat
+2023-11-07 18:05:07 [WARNING]:  * Debugger is active!
+2023-11-07 18:05:07 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 18:05:11 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-07 18:05:11 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-07 18:05:11 [INFO]:  * Restarting with stat
+2023-11-07 18:05:12 [WARNING]:  * Debugger is active!
+2023-11-07 18:05:12 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 18:05:27 [ERROR]: Bybit error: Buy Limit Order is forbidden to trade (ErrCode: 170228) (ErrTime: 14:05:27).
+Request \u2192 POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "XRPUSDT", "side": "BUY", "orderType": "Market", "qty": "8.19"}.
+2023-11-07 18:07:00 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-07 18:07:00 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-07 18:07:00 [INFO]:  * Restarting with stat
+2023-11-07 18:07:01 [WARNING]:  * Debugger is active!
+2023-11-07 18:07:01 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 18:07:25 [INFO]: Bybit market order successfully placed:
+2023-11-07 18:07:25 [INFO]: {'retCode': 0, 'retMsg': 'OK', 'result': {'nextPageCursor': '1548789039923041024', 'category': 'spot', 'list': [{'orderLinkId': '1699366041108589129', 'orderId': '1548789039923041024', 'blockTradeId': '', 'symbol': 'XRPUSDT', 'price': '0', 'isLeverage': '0', 'positionIdx': 0, 'qty': '10.94', 'side': 'Buy', 'orderStatus': 'PartiallyFilledCanceled', 'cancelType': 'UNKNOWN', 'rejectReason': '', 'avgPrice': '0.6825', 'leavesQty': '', 'leavesValue': '', 'cumExecQty': '16.02', 'cumExecValue': '', 'cumExecFee': '', 'timeInForce': 'GTC', 'orderType': 'Market', 'stopOrderType': '', 'orderIv': '', 'triggerPrice': '', 'takeProfit': '', 'stopLoss': '', 'tpTriggerBy': '', 'slTriggerBy': '', 'triggerDirection': 0, 'triggerBy': '', 'lastPriceOnCreated': '', 'reduceOnly': False, 'closeOnTrigger': False, 'createdTime': '1699366041113', 'updatedTime': '1699366041124', 'smpType': 'None', 'smpGroup': 0, 'smpOrderId': ''}]}, 'retExtInfo': {}, 'time': 1699366046792}
+2023-11-07 18:08:52 [ERROR]: db error - add_buy_order: column "exchange" of relation "users" does not exist
+LINE 1: INSERT INTO users (username, exchange, status, order_value, ...
+                                     ^
+
+2023-11-07 18:09:06 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\database.py', reloading
+2023-11-07 18:09:06 [INFO]:  * Restarting with stat
+2023-11-07 18:09:07 [WARNING]:  * Debugger is active!
+2023-11-07 18:09:07 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 18:09:27 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\bybit_client.py', reloading
+2023-11-07 18:09:27 [INFO]:  * Restarting with stat
+2023-11-07 18:09:28 [WARNING]:  * Debugger is active!
+2023-11-07 18:09:28 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 18:09:40 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-07 18:09:40 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-07 18:09:40 [INFO]:  * Restarting with stat
+2023-11-07 18:09:40 [WARNING]:  * Debugger is active!
+2023-11-07 18:09:40 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 18:09:59 [INFO]: Bybit market order successfully placed:
+2023-11-07 18:09:59 [INFO]: {'retCode': 0, 'retMsg': 'OK', 'result': {'nextPageCursor': '1548790373476830976', 'category': 'spot', 'list': [{'orderLinkId': '1699366200077934', 'orderId': '1548790373476830976', 'blockTradeId': '', 'symbol': 'XRPUSDT', 'price': '0', 'isLeverage': '0', 'positionIdx': 0, 'qty': '5.47', 'side': 'Buy', 'orderStatus': 'PartiallyFilledCanceled', 'cancelType': 'UNKNOWN', 'rejectReason': '', 'avgPrice': '0.6831', 'leavesQty': '', 'leavesValue': '', 'cumExecQty': '8', 'cumExecValue': '', 'cumExecFee': '', 'timeInForce': 'GTC', 'orderType': 'Market', 'stopOrderType': '', 'orderIv': '', 'triggerPrice': '', 'takeProfit': '', 'stopLoss': '', 'tpTriggerBy': '', 'slTriggerBy': '', 'triggerDirection': 0, 'triggerBy': '', 'lastPriceOnCreated': '', 'reduceOnly': False, 'closeOnTrigger': False, 'createdTime': '1699366200085', 'updatedTime': '1699366200100', 'smpType': 'None', 'smpGroup': 0, 'smpOrderId': ''}]}, 'retExtInfo': {}, 'time': 1699366200181}
+2023-11-07 18:10:20 [INFO]: 127.0.0.1 - - [07/Nov/2023 18:10:20] "[35m[1mPOST /tv_webbhook/gg HTTP/1.1[0m" 500 -
+2023-11-07 18:10:44 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\app.py', reloading
+2023-11-07 18:10:44 [INFO]:  * Restarting with stat
+2023-11-07 18:10:45 [WARNING]:  * Debugger is active!
+2023-11-07 18:10:45 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 18:12:08 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\app.py', reloading
+2023-11-07 18:12:08 [INFO]:  * Restarting with stat
+2023-11-07 18:12:09 [WARNING]:  * Debugger is active!
+2023-11-07 18:12:09 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 18:13:02 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-07 18:13:02 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-07 18:13:02 [INFO]:  * Restarting with stat
+2023-11-07 18:13:02 [WARNING]:  * Debugger is active!
+2023-11-07 18:13:02 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 18:14:05 [INFO]: Bybit market order successfully placed:
+2023-11-07 18:14:05 [INFO]: {'retCode': 0, 'retMsg': 'OK', 'result': {'nextPageCursor': '1548792439070798848', 'category': 'spot', 'list': [{'orderLinkId': '1699366446318587696', 'orderId': '1548792439070798848', 'blockTradeId': '', 'symbol': 'XRPUSDT', 'price': '0', 'isLeverage': '0', 'positionIdx': 0, 'qty': '2.74', 'side': 'Buy', 'orderStatus': 'PartiallyFilledCanceled', 'cancelType': 'UNKNOWN', 'rejectReason': '', 'avgPrice': '0.6821', 'leavesQty': '', 'leavesValue': '', 'cumExecQty': '4.01', 'cumExecValue': '', 'cumExecFee': '', 'timeInForce': 'GTC', 'orderType': 'Market', 'stopOrderType': '', 'orderIv': '', 'triggerPrice': '', 'takeProfit': '', 'stopLoss': '', 'tpTriggerBy': '', 'slTriggerBy': '', 'triggerDirection': 0, 'triggerBy': '', 'lastPriceOnCreated': '', 'reduceOnly': False, 'closeOnTrigger': False, 'createdTime': '1699366446323', 'updatedTime': '1699366446336', 'smpType': 'None', 'smpGroup': 0, 'smpOrderId': ''}]}, 'retExtInfo': {}, 'time': 1699366446556}
+2023-11-07 18:14:05 [INFO]: 127.0.0.1 - - [07/Nov/2023 18:14:05] "POST /tv_webbhook/gg HTTP/1.1" 200 -
+2023-11-07 19:15:53 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\app.py', reloading
+2023-11-07 19:15:53 [INFO]:  * Restarting with stat
+2023-11-07 19:24:12 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-07 19:24:12 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-07 19:24:12 [INFO]:  * Restarting with stat
+2023-11-07 19:24:13 [WARNING]:  * Debugger is active!
+2023-11-07 19:24:13 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 19:24:36 [INFO]: Bybit market order successfully placed:
+2023-11-07 19:24:36 [INFO]: {'retCode': 0, 'retMsg': 'OK', 'result': {'nextPageCursor': '1548827930357011968', 'category': 'spot', 'list': [{'orderLinkId': '1699370677208591960', 'orderId': '1548827930357011968', 'blockTradeId': '', 'symbol': 'XRPUSDT', 'price': '0', 'isLeverage': '0', 'positionIdx': 0, 'qty': '9.55', 'side': 'Buy', 'orderStatus': 'PartiallyFilledCanceled', 'cancelType': 'UNKNOWN', 'rejectReason': '', 'avgPrice': '0.6737', 'leavesQty': '', 'leavesValue': '', 'cumExecQty': '14.17', 'cumExecValue': '', 'cumExecFee': '', 'timeInForce': 'GTC', 'orderType': 'Market', 'stopOrderType': '', 'orderIv': '', 'triggerPrice': '', 'takeProfit': '', 'stopLoss': '', 'tpTriggerBy': '', 'slTriggerBy': '', 'triggerDirection': 0, 'triggerBy': '', 'lastPriceOnCreated': '', 'reduceOnly': False, 'closeOnTrigger': False, 'createdTime': '1699370677214', 'updatedTime': '1699370677227', 'smpType': 'None', 'smpGroup': 0, 'smpOrderId': ''}]}, 'retExtInfo': {}, 'time': 1699370677309}
+2023-11-07 19:24:46 [INFO]: 127.0.0.1 - - [07/Nov/2023 19:24:46] "POST /tv_webbhook/gg HTTP/1.1" 200 -
+2023-11-07 19:58:22 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\app.py', reloading
+2023-11-07 19:58:22 [INFO]:  * Restarting with stat
+2023-11-07 19:58:23 [WARNING]:  * Debugger is active!
+2023-11-07 19:58:23 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 19:59:25 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\database.py', reloading
+2023-11-07 19:59:25 [INFO]:  * Restarting with stat
+2023-11-07 19:59:26 [WARNING]:  * Debugger is active!
+2023-11-07 19:59:26 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 20:00:07 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\database.py', reloading
+2023-11-07 20:00:07 [INFO]:  * Restarting with stat
+2023-11-07 20:00:08 [WARNING]:  * Debugger is active!
+2023-11-07 20:00:08 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 20:01:41 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\app.py', reloading
+2023-11-07 20:01:41 [INFO]:  * Restarting with stat
+2023-11-07 20:01:41 [WARNING]:  * Debugger is active!
+2023-11-07 20:01:41 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 20:02:27 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\database.py', reloading
+2023-11-07 20:02:27 [INFO]:  * Restarting with stat
+2023-11-07 20:02:28 [WARNING]:  * Debugger is active!
+2023-11-07 20:02:28 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 20:04:34 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\database.py', reloading
+2023-11-07 20:04:34 [INFO]:  * Restarting with stat
+2023-11-07 22:34:54 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-07 22:34:54 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-07 22:34:54 [INFO]:  * Restarting with stat
+2023-11-07 22:34:54 [WARNING]:  * Debugger is active!
+2023-11-07 22:34:54 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 22:35:02 [INFO]: #################### ALERT from tradingview: buy XRPUSDT
+2023-11-07 22:35:02 [INFO]: Bybit market buy order successfully placed:
+2023-11-07 22:35:03 [INFO]: {'retCode': 0, 'retMsg': 'OK', 'result': {'nextPageCursor': '1548923788364714752', 'category': 'spot', 'list': [{'orderLinkId': '16993821043721128', 'orderId': '1548923788364714752', 'blockTradeId': '', 'symbol': 'XRPUSDT', 'price': '0', 'isLeverage': '0', 'positionIdx': 0, 'qty': '10.81', 'side': 'Buy', 'orderStatus': 'PartiallyFilledCanceled', 'cancelType': 'UNKNOWN', 'rejectReason': '', 'avgPrice': '0.6831', 'leavesQty': '', 'leavesValue': '', 'cumExecQty': '15.82', 'cumExecValue': '', 'cumExecFee': '', 'timeInForce': 'GTC', 'orderType': 'Market', 'stopOrderType': '', 'orderIv': '', 'triggerPrice': '', 'takeProfit': '', 'stopLoss': '', 'tpTriggerBy': '', 'slTriggerBy': '', 'triggerDirection': 0, 'triggerBy': '', 'lastPriceOnCreated': '', 'reduceOnly': False, 'closeOnTrigger': False, 'createdTime': '1699382104379', 'updatedTime': '1699382104391', 'smpType': 'None', 'smpGroup': 0, 'smpOrderId': ''}]}, 'retExtInfo': {}, 'time': 1699382104611}
+2023-11-07 22:35:03 [ERROR]: db error - add_buy_order: 'Order' object has no attribute 'quantity'
+2023-11-07 22:35:03 [INFO]: 127.0.0.1 - - [07/Nov/2023 22:35:03] "POST /tv_webbhook/gg HTTP/1.1" 200 -
+2023-11-07 22:36:14 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\database.py', reloading
+2023-11-07 22:36:14 [INFO]:  * Restarting with stat
+2023-11-07 22:36:15 [WARNING]:  * Debugger is active!
+2023-11-07 22:36:15 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 22:36:24 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-07 22:36:24 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-07 22:36:24 [INFO]:  * Restarting with stat
+2023-11-07 22:36:25 [WARNING]:  * Debugger is active!
+2023-11-07 22:36:25 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 22:36:29 [INFO]: #################### ALERT from tradingview: buy XRPUSDT
+2023-11-07 22:36:30 [INFO]: Bybit market buy order successfully placed:
+2023-11-07 22:36:30 [INFO]: {'retCode': 0, 'retMsg': 'OK', 'result': {'nextPageCursor': '1548924520337905152', 'category': 'spot', 'list': [{'orderLinkId': '16993821916321031', 'orderId': '1548924520337905152', 'blockTradeId': '', 'symbol': 'XRPUSDT', 'price': '0', 'isLeverage': '0', 'positionIdx': 0, 'qty': '5.40', 'side': 'Buy', 'orderStatus': 'PartiallyFilledCanceled', 'cancelType': 'UNKNOWN', 'rejectReason': '', 'avgPrice': '0.6844', 'leavesQty': '', 'leavesValue': '', 'cumExecQty': '7.89', 'cumExecValue': '', 'cumExecFee': '', 'timeInForce': 'GTC', 'orderType': 'Market', 'stopOrderType': '', 'orderIv': '', 'triggerPrice': '', 'takeProfit': '', 'stopLoss': '', 'tpTriggerBy': '', 'slTriggerBy': '', 'triggerDirection': 0, 'triggerBy': '', 'lastPriceOnCreated': '', 'reduceOnly': False, 'closeOnTrigger': False, 'createdTime': '1699382191637', 'updatedTime': '1699382191649', 'smpType': 'None', 'smpGroup': 0, 'smpOrderId': ''}]}, 'retExtInfo': {}, 'time': 1699382191870}
+2023-11-07 22:36:30 [ERROR]: db error - add_buy_order: column "quantity" of relation "orders" does not exist
+LINE 1: ...(username, exchange, status, order_value, symbol, quantity, ...
+                                                             ^
+
+2023-11-07 22:36:30 [INFO]: 127.0.0.1 - - [07/Nov/2023 22:36:30] "POST /tv_webbhook/gg HTTP/1.1" 200 -
+2023-11-07 22:37:19 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\database.py', reloading
+2023-11-07 22:37:19 [INFO]:  * Restarting with stat
+2023-11-07 22:37:20 [WARNING]:  * Debugger is active!
+2023-11-07 22:37:20 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 22:38:31 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\app.py', reloading
+2023-11-07 22:38:31 [INFO]:  * Restarting with stat
+2023-11-07 22:38:31 [WARNING]:  * Debugger is active!
+2023-11-07 22:38:31 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 22:38:50 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\app.py', reloading
+2023-11-07 22:38:50 [INFO]:  * Restarting with stat
+2023-11-07 22:38:51 [WARNING]:  * Debugger is active!
+2023-11-07 22:38:51 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 22:38:58 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-07 22:38:58 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-07 22:38:58 [INFO]:  * Restarting with stat
+2023-11-07 22:38:58 [WARNING]:  * Debugger is active!
+2023-11-07 22:38:58 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 22:39:18 [INFO]: #################### ALERT from tradingview: buy XRPUSDT
+2023-11-07 22:39:19 [INFO]: Bybit market buy order successfully placed:
+2023-11-07 22:39:19 [INFO]: {'retCode': 0, 'retMsg': 'OK', 'result': {'nextPageCursor': '1548925939228911104', 'category': 'spot', 'list': [{'orderLinkId': '1699382360777617498', 'orderId': '1548925939228911104', 'blockTradeId': '', 'symbol': 'XRPUSDT', 'price': '0', 'isLeverage': '0', 'positionIdx': 0, 'qty': '10.80', 'side': 'Buy', 'orderStatus': 'PartiallyFilledCanceled', 'cancelType': 'UNKNOWN', 'rejectReason': '', 'avgPrice': '0.6845', 'leavesQty': '', 'leavesValue': '', 'cumExecQty': '15.77', 'cumExecValue': '', 'cumExecFee': '', 'timeInForce': 'GTC', 'orderType': 'Market', 'stopOrderType': '', 'orderIv': '', 'triggerPrice': '', 'takeProfit': '', 'stopLoss': '', 'tpTriggerBy': '', 'slTriggerBy': '', 'triggerDirection': 0, 'triggerBy': '', 'lastPriceOnCreated': '', 'reduceOnly': False, 'closeOnTrigger': False, 'createdTime': '1699382360782', 'updatedTime': '1699382360792', 'smpType': 'None', 'smpGroup': 0, 'smpOrderId': ''}]}, 'retExtInfo': {}, 'time': 1699382360874}
+2023-11-07 22:39:19 [INFO]: 127.0.0.1 - - [07/Nov/2023 22:39:19] "POST /tv_webbhook/gg HTTP/1.1" 200 -
+2023-11-07 22:40:14 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-07 22:40:14 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-07 22:40:14 [INFO]:  * Restarting with stat
+2023-11-07 22:40:15 [WARNING]:  * Debugger is active!
+2023-11-07 22:40:15 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 22:40:20 [INFO]: #################### ALERT from tradingview: buy XRPUSDT
+2023-11-07 22:40:20 [INFO]: Bybit market buy order successfully placed:
+2023-11-07 22:40:20 [INFO]: {'retCode': 0, 'retMsg': 'OK', 'result': {'nextPageCursor': '1548926452427228160', 'category': 'spot', 'list': [{'orderLinkId': '1699382421955586160', 'orderId': '1548926452427228160', 'blockTradeId': '', 'symbol': 'XRPUSDT', 'price': '0', 'isLeverage': '0', 'positionIdx': 0, 'qty': '5.40', 'side': 'Buy', 'orderStatus': 'PartiallyFilledCanceled', 'cancelType': 'UNKNOWN', 'rejectReason': '', 'avgPrice': '0.6843', 'leavesQty': '', 'leavesValue': '', 'cumExecQty': '7.89', 'cumExecValue': '', 'cumExecFee': '', 'timeInForce': 'GTC', 'orderType': 'Market', 'stopOrderType': '', 'orderIv': '', 'triggerPrice': '', 'takeProfit': '', 'stopLoss': '', 'tpTriggerBy': '', 'slTriggerBy': '', 'triggerDirection': 0, 'triggerBy': '', 'lastPriceOnCreated': '', 'reduceOnly': False, 'closeOnTrigger': False, 'createdTime': '1699382421960', 'updatedTime': '1699382421973', 'smpType': 'None', 'smpGroup': 0, 'smpOrderId': ''}]}, 'retExtInfo': {}, 'time': 1699382422205}
+2023-11-07 22:41:07 [INFO]: 127.0.0.1 - - [07/Nov/2023 22:41:07] "POST /tv_webbhook/gg HTTP/1.1" 200 -
+2023-11-07 22:43:10 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-07 22:43:10 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-07 22:43:10 [INFO]:  * Restarting with stat
+2023-11-07 22:43:11 [WARNING]:  * Debugger is active!
+2023-11-07 22:43:11 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 22:43:17 [INFO]: #################### ALERT from tradingview: sell XRPUSDT
+2023-11-07 22:44:34 [INFO]: 127.0.0.1 - - [07/Nov/2023 22:44:34] "[35m[1mPOST /tv_webbhook/gg HTTP/1.1[0m" 500 -
+2023-11-07 22:44:47 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\app.py', reloading
+2023-11-07 22:44:47 [INFO]:  * Restarting with stat
+2023-11-07 22:44:48 [WARNING]:  * Debugger is active!
+2023-11-07 22:44:48 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 22:45:33 [INFO]: #################### ALERT from tradingview: sell XRPUSDT
+2023-11-07 22:46:02 [ERROR]: Bybit error: unsupported operand type(s) for *: 'decimal.Decimal' and 'float'
+2023-11-07 22:47:51 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\app.py', reloading
+2023-11-07 22:47:51 [INFO]:  * Restarting with stat
+2023-11-07 22:47:53 [WARNING]:  * Debugger is active!
+2023-11-07 22:47:53 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 22:50:15 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\database.py', reloading
+2023-11-07 22:50:15 [INFO]:  * Restarting with stat
+2023-11-07 22:50:16 [WARNING]:  * Debugger is active!
+2023-11-07 22:50:16 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 22:51:49 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\test.py', reloading
+2023-11-07 22:51:49 [INFO]:  * Restarting with stat
+2023-11-07 22:51:51 [WARNING]:  * Debugger is active!
+2023-11-07 22:51:51 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 22:52:04 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\test.py', reloading
+2023-11-07 22:52:04 [INFO]:  * Restarting with stat
+2023-11-07 22:52:05 [WARNING]:  * Debugger is active!
+2023-11-07 22:52:05 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 22:54:47 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\database.py', reloading
+2023-11-07 22:54:47 [INFO]:  * Restarting with stat
+2023-11-07 22:54:48 [WARNING]:  * Debugger is active!
+2023-11-07 22:54:48 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 22:55:02 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\database.py', reloading
+2023-11-07 22:55:02 [INFO]:  * Restarting with stat
+2023-11-07 22:55:02 [WARNING]:  * Debugger is active!
+2023-11-07 22:55:02 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 22:55:40 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\database.py', reloading
+2023-11-07 22:55:40 [INFO]:  * Restarting with stat
+2023-11-07 22:55:41 [WARNING]:  * Debugger is active!
+2023-11-07 22:55:41 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 22:58:19 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\database.py', reloading
+2023-11-07 22:58:19 [INFO]:  * Restarting with stat
+2023-11-07 22:58:20 [WARNING]:  * Debugger is active!
+2023-11-07 22:58:20 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 22:59:03 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\app.py', reloading
+2023-11-07 22:59:03 [INFO]:  * Restarting with stat
+2023-11-07 22:59:03 [WARNING]:  * Debugger is active!
+2023-11-07 22:59:03 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 22:59:36 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-07 22:59:36 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-07 22:59:36 [INFO]:  * Restarting with stat
+2023-11-07 22:59:37 [WARNING]:  * Debugger is active!
+2023-11-07 22:59:37 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 22:59:43 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\api_call.py', reloading
+2023-11-07 22:59:43 [INFO]:  * Restarting with stat
+2023-11-07 22:59:43 [WARNING]:  * Debugger is active!
+2023-11-07 22:59:43 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 22:59:45 [INFO]: #################### ALERT from tradingview: buy XRPUSDT
+2023-11-07 22:59:45 [INFO]: Bybit market buy order successfully placed:
+2023-11-07 22:59:46 [INFO]: {'retCode': 0, 'retMsg': 'OK', 'result': {'nextPageCursor': '1548936230129995520', 'category': 'spot', 'list': [{'orderLinkId': '1699383587548592204', 'orderId': '1548936230129995520', 'blockTradeId': '', 'symbol': 'XRPUSDT', 'price': '0', 'isLeverage': '0', 'positionIdx': 0, 'qty': '10.81', 'side': 'Buy', 'orderStatus': 'PartiallyFilledCanceled', 'cancelType': 'UNKNOWN', 'rejectReason': '', 'avgPrice': '0.6861', 'leavesQty': '', 'leavesValue': '', 'cumExecQty': '15.75', 'cumExecValue': '', 'cumExecFee': '', 'timeInForce': 'GTC', 'orderType': 'Market', 'stopOrderType': '', 'orderIv': '', 'triggerPrice': '', 'takeProfit': '', 'stopLoss': '', 'tpTriggerBy': '', 'slTriggerBy': '', 'triggerDirection': 0, 'triggerBy': '', 'lastPriceOnCreated': '', 'reduceOnly': False, 'closeOnTrigger': False, 'createdTime': '1699383587553', 'updatedTime': '1699383587565', 'smpType': 'None', 'smpGroup': 0, 'smpOrderId': ''}]}, 'retExtInfo': {}, 'time': 1699383587646}
+2023-11-07 22:59:46 [INFO]: 127.0.0.1 - - [07/Nov/2023 22:59:46] "POST /tv_webbhook/gg HTTP/1.1" 200 -
+2023-11-07 22:59:56 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\api_call.py', reloading
+2023-11-07 22:59:56 [INFO]:  * Restarting with stat
+2023-11-07 22:59:56 [WARNING]:  * Debugger is active!
+2023-11-07 22:59:56 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 23:00:02 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-07 23:00:02 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-07 23:00:02 [INFO]:  * Restarting with stat
+2023-11-07 23:00:03 [WARNING]:  * Debugger is active!
+2023-11-07 23:00:03 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 23:00:06 [INFO]: #################### ALERT from tradingview: sell XRPUSDT
+2023-11-07 23:00:39 [INFO]: Bybit market sell order successfully placed:
+2023-11-07 23:01:21 [INFO]: {'retCode': 0, 'retMsg': 'OK', 'result': {'nextPageCursor': '1548936680723985408', 'category': 'spot', 'list': [{'orderLinkId': '1699383641260586433', 'orderId': '1548936680723985408', 'blockTradeId': '', 'symbol': 'XRPUSDT', 'price': '0', 'isLeverage': '0', 'positionIdx': 0, 'qty': '15.74', 'side': 'Sell', 'orderStatus': 'Filled', 'cancelType': 'UNKNOWN', 'rejectReason': '', 'avgPrice': '0.6862', 'leavesQty': '', 'leavesValue': '', 'cumExecQty': '15.74', 'cumExecValue': '', 'cumExecFee': '', 'timeInForce': 'GTC', 'orderType': 'Market', 'stopOrderType': '', 'orderIv': '', 'triggerPrice': '', 'takeProfit': '', 'stopLoss': '', 'tpTriggerBy': '', 'slTriggerBy': '', 'triggerDirection': 0, 'triggerBy': '', 'lastPriceOnCreated': '', 'reduceOnly': False, 'closeOnTrigger': False, 'createdTime': '1699383641268', 'updatedTime': '1699383641279', 'smpType': 'None', 'smpGroup': 0, 'smpOrderId': ''}]}, 'retExtInfo': {}, 'time': 1699383677209}
+2023-11-07 23:01:32 [INFO]: 127.0.0.1 - - [07/Nov/2023 23:01:32] "[35m[1mPOST /tv_webbhook/gg HTTP/1.1[0m" 500 -
+2023-11-07 23:03:34 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\bybit_client.py', reloading
+2023-11-07 23:03:34 [INFO]:  * Restarting with stat
+2023-11-07 23:03:35 [WARNING]:  * Debugger is active!
+2023-11-07 23:03:35 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 23:03:57 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-07 23:03:57 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-07 23:03:57 [INFO]:  * Restarting with stat
+2023-11-07 23:03:57 [WARNING]:  * Debugger is active!
+2023-11-07 23:03:57 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 23:04:03 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\api_call.py', reloading
+2023-11-07 23:04:03 [INFO]:  * Restarting with stat
+2023-11-07 23:04:03 [WARNING]:  * Debugger is active!
+2023-11-07 23:04:03 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 23:04:04 [INFO]: #################### ALERT from tradingview: buy XRPUSDT
+2023-11-07 23:04:05 [INFO]: Bybit market buy order successfully placed:
+2023-11-07 23:04:05 [INFO]: {'retCode': 0, 'retMsg': 'OK', 'result': {'nextPageCursor': '1548938406227162624', 'category': 'spot', 'list': [{'orderLinkId': '1699383846959588955', 'orderId': '1548938406227162624', 'blockTradeId': '', 'symbol': 'XRPUSDT', 'price': '0', 'isLeverage': '0', 'positionIdx': 0, 'qty': '10.80', 'side': 'Buy', 'orderStatus': 'PartiallyFilledCanceled', 'cancelType': 'UNKNOWN', 'rejectReason': '', 'avgPrice': '0.6859', 'leavesQty': '', 'leavesValue': '', 'cumExecQty': '15.74', 'cumExecValue': '', 'cumExecFee': '', 'timeInForce': 'GTC', 'orderType': 'Market', 'stopOrderType': '', 'orderIv': '', 'triggerPrice': '', 'takeProfit': '', 'stopLoss': '', 'tpTriggerBy': '', 'slTriggerBy': '', 'triggerDirection': 0, 'triggerBy': '', 'lastPriceOnCreated': '', 'reduceOnly': False, 'closeOnTrigger': False, 'createdTime': '1699383846964', 'updatedTime': '1699383846977', 'smpType': 'None', 'smpGroup': 0, 'smpOrderId': ''}]}, 'retExtInfo': {}, 'time': 1699383847061}
+2023-11-07 23:04:05 [INFO]: 127.0.0.1 - - [07/Nov/2023 23:04:05] "POST /tv_webbhook/gg HTTP/1.1" 200 -
+2023-11-07 23:04:09 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\api_call.py', reloading
+2023-11-07 23:04:09 [INFO]:  * Restarting with stat
+2023-11-07 23:04:10 [WARNING]:  * Debugger is active!
+2023-11-07 23:04:10 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 23:04:12 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-07 23:04:12 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-07 23:04:12 [INFO]:  * Restarting with stat
+2023-11-07 23:04:13 [WARNING]:  * Debugger is active!
+2023-11-07 23:04:13 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 23:04:22 [INFO]: #################### ALERT from tradingview: sell XRPUSDT
+2023-11-07 23:04:38 [INFO]: Bybit market sell order successfully placed:
+2023-11-07 23:04:38 [INFO]: {'retCode': 0, 'retMsg': 'OK', 'result': {'nextPageCursor': '1548938682824756992', 'category': 'spot', 'list': [{'orderLinkId': '1699383879932591254', 'orderId': '1548938682824756992', 'blockTradeId': '', 'symbol': 'XRPUSDT', 'price': '0', 'isLeverage': '0', 'positionIdx': 0, 'qty': '15.72', 'side': 'Sell', 'orderStatus': 'Filled', 'cancelType': 'UNKNOWN', 'rejectReason': '', 'avgPrice': '0.6858', 'leavesQty': '', 'leavesValue': '', 'cumExecQty': '15.72', 'cumExecValue': '', 'cumExecFee': '', 'timeInForce': 'GTC', 'orderType': 'Market', 'stopOrderType': '', 'orderIv': '', 'triggerPrice': '', 'takeProfit': '', 'stopLoss': '', 'tpTriggerBy': '', 'slTriggerBy': '', 'triggerDirection': 0, 'triggerBy': '', 'lastPriceOnCreated': '', 'reduceOnly': False, 'closeOnTrigger': False, 'createdTime': '1699383879937', 'updatedTime': '1699383879949', 'smpType': 'None', 'smpGroup': 0, 'smpOrderId': ''}]}, 'retExtInfo': {}, 'time': 1699383880196}
+2023-11-07 23:06:16 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\app.py', reloading
+2023-11-07 23:06:16 [INFO]:  * Restarting with stat
+2023-11-07 23:06:17 [WARNING]:  * Debugger is active!
+2023-11-07 23:06:17 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 23:06:37 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-07 23:06:37 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-07 23:06:37 [INFO]:  * Restarting with stat
+2023-11-07 23:06:37 [WARNING]:  * Debugger is active!
+2023-11-07 23:06:37 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 23:06:42 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\api_call.py', reloading
+2023-11-07 23:06:42 [INFO]:  * Restarting with stat
+2023-11-07 23:06:42 [WARNING]:  * Debugger is active!
+2023-11-07 23:06:43 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 23:06:44 [INFO]: #################### ALERT from tradingview: buy XRPUSDT
+2023-11-07 23:06:44 [INFO]: Bybit market buy order successfully placed:
+2023-11-07 23:06:44 [INFO]: {'retCode': 0, 'retMsg': 'OK', 'result': {'nextPageCursor': '1548939740980595968', 'category': 'spot', 'list': [{'orderLinkId': '1699384006073592445', 'orderId': '1548939740980595968', 'blockTradeId': '', 'symbol': 'XRPUSDT', 'price': '0', 'isLeverage': '0', 'positionIdx': 0, 'qty': '10.79', 'side': 'Buy', 'orderStatus': 'PartiallyFilledCanceled', 'cancelType': 'UNKNOWN', 'rejectReason': '', 'avgPrice': '0.6861', 'leavesQty': '', 'leavesValue': '', 'cumExecQty': '15.72', 'cumExecValue': '', 'cumExecFee': '', 'timeInForce': 'GTC', 'orderType': 'Market', 'stopOrderType': '', 'orderIv': '', 'triggerPrice': '', 'takeProfit': '', 'stopLoss': '', 'tpTriggerBy': '', 'slTriggerBy': '', 'triggerDirection': 0, 'triggerBy': '', 'lastPriceOnCreated': '', 'reduceOnly': False, 'closeOnTrigger': False, 'createdTime': '1699384006079', 'updatedTime': '1699384006091', 'smpType': 'None', 'smpGroup': 0, 'smpOrderId': ''}]}, 'retExtInfo': {}, 'time': 1699384006184}
+2023-11-07 23:06:44 [INFO]: 127.0.0.1 - - [07/Nov/2023 23:06:44] "POST /tv_webbhook/gg HTTP/1.1" 200 -
+2023-11-07 23:06:48 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-07 23:06:48 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-07 23:06:48 [INFO]:  * Restarting with stat
+2023-11-07 23:06:49 [WARNING]:  * Debugger is active!
+2023-11-07 23:06:49 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 23:06:51 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\api_call.py', reloading
+2023-11-07 23:06:51 [INFO]:  * Restarting with stat
+2023-11-07 23:06:52 [WARNING]:  * Debugger is active!
+2023-11-07 23:06:52 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-07 23:06:55 [INFO]: #################### ALERT from tradingview: sell XRPUSDT
+2023-11-07 23:06:57 [INFO]: Bybit market sell order successfully placed:
+2023-11-07 23:06:57 [INFO]: {'retCode': 0, 'retMsg': 'OK', 'result': {'nextPageCursor': '1548939848908378880', 'category': 'spot', 'list': [{'orderLinkId': '1699384018940961', 'orderId': '1548939848908378880', 'blockTradeId': '', 'symbol': 'XRPUSDT', 'price': '0', 'isLeverage': '0', 'positionIdx': 0, 'qty': '15.70', 'side': 'Sell', 'orderStatus': 'Filled', 'cancelType': 'UNKNOWN', 'rejectReason': '', 'avgPrice': '0.6866', 'leavesQty': '', 'leavesValue': '', 'cumExecQty': '15.7', 'cumExecValue': '', 'cumExecFee': '', 'timeInForce': 'GTC', 'orderType': 'Market', 'stopOrderType': '', 'orderIv': '', 'triggerPrice': '', 'takeProfit': '', 'stopLoss': '', 'tpTriggerBy': '', 'slTriggerBy': '', 'triggerDirection': 0, 'triggerBy': '', 'lastPriceOnCreated': '', 'reduceOnly': False, 'closeOnTrigger': False, 'createdTime': '1699384018945', 'updatedTime': '1699384018958', 'smpType': 'None', 'smpGroup': 0, 'smpOrderId': ''}]}, 'retExtInfo': {}, 'time': 1699384019188}
+2023-11-07 23:07:22 [INFO]: 127.0.0.1 - - [07/Nov/2023 23:07:22] "POST /tv_webbhook/gg HTTP/1.1" 200 -

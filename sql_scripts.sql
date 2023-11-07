@@ -26,4 +26,27 @@ CREATE TABLE settings (
     bybit_bot_status VARCHAR(20)
 );
 INSERT INTO settings (username, target_monday, target_tuesday, target_wednesday, target_thursday, target_friday, target_saturday, target_sunday, bybit_stoploss, bybit_ordersize, bybit_apikey, bybit_secret, bybit_trading_type, bybit_bot_status)
-VALUES ('gg', 1, 1, 1, 1, 1, 1, 1, 1, 50, 'sHFo810ThZII4pfkJ1hcHrtRyHHdxuNLU2csTsuC6WgyamMimAqhM51DYV107oef', 'cUY9G1URmFEbGNXNM0YTU5sDQeAR1keyRvrlVw1RfvOgYRIyG5uSJpeaLRsgxf5v', 'market', 'active');
+VALUES ('gg', 1, 1, 1, 1, 1, 1, 1, 1, 50, 'G9egFxxxqtEVw3Lwjf', 'Lo8Ix1J0lIG3kKdc8psJkGaAsohePQkAVTjX', 'market', 'active');
+
+DROP TABLE orders;
+CREATE TABLE orders (
+    id SERIAL PRIMARY KEY,
+    username VARCHAR(50) NOT NULL,
+    exchange VARCHAR(50) NOT NULL,
+    status VARCHAR(50),
+    order_value DECIMAL(30, 10),
+    symbol VARCHAR(50),
+    buy_quantity DECIMAL(30, 10),
+    type VARCHAR(50),
+    account_usdt_before_buy DECIMAL(30, 10),
+    entry_time TIMESTAMP,
+    buy_price DECIMAL(30, 10),
+    account_usdt_before_sell DECIMAL(30, 10),
+    exit_time TIMESTAMP,
+    sell_price DECIMAL(30, 10),
+    sell_quantity DECIMAL(30, 10),
+    account_usdt_after_sell DECIMAL(30, 10),
+    total_trading_fees DECIMAL(30, 10),
+    profit_percentage DECIMAL(30, 10),
+    profit DECIMAL(30, 10)
+);

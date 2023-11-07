@@ -1,9 +1,10 @@
-# app.py
-
 from flask import Flask, render_template, request, redirect, url_for, session
 from flask_session import Session
 from config import *
 from database import Database
+from bybit_client import BybitClient
+from log_module import CustomLogger
+
 
 app = Flask(__name__)
 
@@ -14,6 +15,54 @@ Session(app)
 
 db = Database()
 db.connect()
+
+logger = CustomLogger("app.log")
+
+@app.route('/tv_webbhook/<username>', methods=['POST'])
+def tv_webbhook(username):
+    alert = request.get_data(as_text=True)
+    logger.log('info', "#################### ALERT from tradingview: " + alert)
+    side = alert.split(" ")[0]
+    symbol = alert.split(" ")[1]
+    user_settings = db.get_settings(username)
+    bybit_client = BybitClient(user_settings.bybit_apikey, user_settings.bybit_secret)
+    if(side.lower() == "buy"):
+        account_usdt_before_buy = float(bybit_client.get_balance("USDT"))
+        order_val_usdt = account_usdt_before_buy * ( float(user_settings.bybit_ordersize) / 100)
+        order = bybit_client.place_market_buy_order(symbol, order_val_usdt)
+        if(order != False):
+            order.account_usdt_before_buy = account_usdt_before_buy
+            order.username = username
+            if(db.add_buy_order(order)):
+                return "done"
+            return
+        else:
+            return
+    if (side.lower() == "sell"):
+        account_usdt_before_sell = float(bybit_client.get_balance("USDT"))
+        open_order = db.get_open_order(username, symbol, "bybit")
+        if (open_order != False):
+            quantity = open_order.buy_quantity
+            available_quantity = float(bybit_client.get_balance(symbol.replace("USDT","")))
+            if(available_quantity < quantity):
+                quantity = available_quantity
+            order = bybit_client.place_market_sell_order(symbol, quantity, open_order)
+            if (order != False):
+                order.id = open_order.id
+                order.account_usdt_before_sell = account_usdt_before_sell
+                account_usdt_after_sell = float(bybit_client.get_balance("USDT"))
+                order.account_usdt_after_sell = account_usdt_after_sell
+                order.total_trading_fees = order.order_value * 0.002
+                order.profit = round(order.account_usdt_after_sell - order.account_usdt_before_buy ,5)
+                order.profit_percentage = round((order.profit / order.account_usdt_before_buy) * 100, 5)
+                if(db.update_sell_order(order)):
+                    return "done"
+                return
+            else:
+                return
+        else:
+            return
+
 
 @app.route('/')
 def index():
