@@ -43,3 +43,16 @@ class Order:
         self.total_trading_fees = 0
         self.profit_percentage = 0
         self.profit = 0
+
+class Exchange:
+    def __init__(self):
+        self.name = ""
+        self.status = ""
+        self.symbol = ""
+        self.starting_balance = 0
+        self.current_quantity = 0
+        self.current_balance = 0
+        self.trades = 0
+        self.total_trading_fees = 0
+        self.profit_percentage = 0
+        self.profit = 0

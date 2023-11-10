@@ -421,3 +421,497 @@ LINE 1: ...(username, exchange, status, order_value, symbol, quantity, ...
 2023-11-07 23:06:57 [INFO]: Bybit market sell order successfully placed:
 2023-11-07 23:06:57 [INFO]: {'retCode': 0, 'retMsg': 'OK', 'result': {'nextPageCursor': '1548939848908378880', 'category': 'spot', 'list': [{'orderLinkId': '1699384018940961', 'orderId': '1548939848908378880', 'blockTradeId': '', 'symbol': 'XRPUSDT', 'price': '0', 'isLeverage': '0', 'positionIdx': 0, 'qty': '15.70', 'side': 'Sell', 'orderStatus': 'Filled', 'cancelType': 'UNKNOWN', 'rejectReason': '', 'avgPrice': '0.6866', 'leavesQty': '', 'leavesValue': '', 'cumExecQty': '15.7', 'cumExecValue': '', 'cumExecFee': '', 'timeInForce': 'GTC', 'orderType': 'Market', 'stopOrderType': '', 'orderIv': '', 'triggerPrice': '', 'takeProfit': '', 'stopLoss': '', 'tpTriggerBy': '', 'slTriggerBy': '', 'triggerDirection': 0, 'triggerBy': '', 'lastPriceOnCreated': '', 'reduceOnly': False, 'closeOnTrigger': False, 'createdTime': '1699384018945', 'updatedTime': '1699384018958', 'smpType': 'None', 'smpGroup': 0, 'smpOrderId': ''}]}, 'retExtInfo': {}, 'time': 1699384019188}
 2023-11-07 23:07:22 [INFO]: 127.0.0.1 - - [07/Nov/2023 23:07:22] "POST /tv_webbhook/gg HTTP/1.1" 200 -
+2023-11-10 09:22:47 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-10 09:22:47 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-10 09:22:47 [INFO]:  * Restarting with stat
+2023-11-10 09:22:47 [WARNING]:  * Debugger is active!
+2023-11-10 09:22:47 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-10 09:22:56 [INFO]: 127.0.0.1 - - [10/Nov/2023 09:22:56] "GET /login HTTP/1.1" 200 -
+2023-11-10 09:22:56 [INFO]: 127.0.0.1 - - [10/Nov/2023 09:22:56] "[36mGET /static/css/login_styles.css HTTP/1.1[0m" 304 -
+2023-11-10 09:22:56 [INFO]: 127.0.0.1 - - [10/Nov/2023 09:22:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-11-10 09:22:58 [INFO]: 127.0.0.1 - - [10/Nov/2023 09:22:58] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-11-10 09:22:58 [INFO]: 127.0.0.1 - - [10/Nov/2023 09:22:58] "GET / HTTP/1.1" 200 -
+2023-11-10 09:23:01 [INFO]: 127.0.0.1 - - [10/Nov/2023 09:23:01] "GET /settings HTTP/1.1" 200 -
+2023-11-10 09:23:01 [INFO]: 127.0.0.1 - - [10/Nov/2023 09:23:01] "[36mGET /static/js/update_settings.js HTTP/1.1[0m" 304 -
+2023-11-10 09:23:03 [INFO]: 127.0.0.1 - - [10/Nov/2023 09:23:03] "GET /trades HTTP/1.1" 200 -
+2023-11-10 09:23:33 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\app.py', reloading
+2023-11-10 09:23:33 [INFO]:  * Restarting with stat
+2023-11-10 09:23:34 [WARNING]:  * Debugger is active!
+2023-11-10 09:23:34 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-10 09:23:40 [INFO]: 127.0.0.1 - - [10/Nov/2023 09:23:40] "GET /trades HTTP/1.1" 200 -
+2023-11-10 09:23:41 [INFO]: 127.0.0.1 - - [10/Nov/2023 09:23:41] "GET /trades HTTP/1.1" 200 -
+2023-11-10 09:23:46 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\app.py', reloading
+2023-11-10 09:23:46 [INFO]:  * Restarting with stat
+2023-11-10 09:23:47 [WARNING]:  * Debugger is active!
+2023-11-10 09:23:47 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-10 09:23:51 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-10 09:23:51 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-10 09:23:51 [INFO]:  * Restarting with stat
+2023-11-10 09:23:51 [WARNING]:  * Debugger is active!
+2023-11-10 09:23:51 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-10 09:24:43 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-10 09:24:43 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-10 09:24:43 [INFO]:  * Restarting with stat
+2023-11-10 09:24:43 [WARNING]:  * Debugger is active!
+2023-11-10 09:24:43 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-10 09:24:45 [INFO]: 127.0.0.1 - - [10/Nov/2023 09:24:45] "GET /trades HTTP/1.1" 200 -
+2023-11-10 09:26:05 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\api_call.py', reloading
+2023-11-10 09:26:05 [INFO]:  * Restarting with stat
+2023-11-10 09:26:06 [WARNING]:  * Debugger is active!
+2023-11-10 09:26:06 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-10 09:26:43 [INFO]: #################### ALERT from tradingview: buy XRPUSDT
+2023-11-10 09:26:43 [INFO]: Bybit market buy order successfully placed:
+2023-11-10 09:26:43 [INFO]: {'retCode': 0, 'retMsg': 'OK', 'result': {'nextPageCursor': '1550701325650506752', 'category': 'spot', 'list': [{'orderLinkId': '16995940033301327', 'orderId': '1550701325650506752', 'blockTradeId': '', 'symbol': 'XRPUSDT', 'price': '0', 'isLeverage': '0', 'positionIdx': 0, 'qty': '10.78', 'side': 'Buy', 'orderStatus': 'PartiallyFilledCanceled', 'cancelType': 'UNKNOWN', 'rejectReason': '', 'avgPrice': '0.664', 'leavesQty': '', 'leavesValue': '', 'cumExecQty': '16.23', 'cumExecValue': '', 'cumExecFee': '', 'timeInForce': 'GTC', 'orderType': 'Market', 'stopOrderType': '', 'orderIv': '', 'triggerPrice': '', 'takeProfit': '', 'stopLoss': '', 'tpTriggerBy': '', 'slTriggerBy': '', 'triggerDirection': 0, 'triggerBy': '', 'lastPriceOnCreated': '', 'reduceOnly': False, 'closeOnTrigger': False, 'createdTime': '1699594003336', 'updatedTime': '1699594003352', 'smpType': 'None', 'smpGroup': 0, 'smpOrderId': ''}]}, 'retExtInfo': {}, 'time': 1699594003432}
+2023-11-10 09:26:43 [INFO]: 127.0.0.1 - - [10/Nov/2023 09:26:43] "POST /tv_webbhook/gg HTTP/1.1" 200 -
+2023-11-10 09:26:58 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\api_call.py', reloading
+2023-11-10 09:26:58 [INFO]:  * Restarting with stat
+2023-11-10 09:26:58 [WARNING]:  * Debugger is active!
+2023-11-10 09:26:58 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-10 09:27:02 [INFO]: #################### ALERT from tradingview: sell XRPUSDT
+2023-11-10 09:27:03 [INFO]: Bybit market sell order successfully placed:
+2023-11-10 09:27:03 [INFO]: {'retCode': 0, 'retMsg': 'OK', 'result': {'nextPageCursor': '1550701490629397760', 'category': 'spot', 'list': [{'orderLinkId': '16995940229981405', 'orderId': '1550701490629397760', 'blockTradeId': '', 'symbol': 'XRPUSDT', 'price': '0', 'isLeverage': '0', 'positionIdx': 0, 'qty': '16.22', 'side': 'Sell', 'orderStatus': 'Filled', 'cancelType': 'UNKNOWN', 'rejectReason': '', 'avgPrice': '0.6638', 'leavesQty': '', 'leavesValue': '', 'cumExecQty': '16.22', 'cumExecValue': '', 'cumExecFee': '', 'timeInForce': 'GTC', 'orderType': 'Market', 'stopOrderType': '', 'orderIv': '', 'triggerPrice': '', 'takeProfit': '', 'stopLoss': '', 'tpTriggerBy': '', 'slTriggerBy': '', 'triggerDirection': 0, 'triggerBy': '', 'lastPriceOnCreated': '', 'reduceOnly': False, 'closeOnTrigger': False, 'createdTime': '1699594023004', 'updatedTime': '1699594023017', 'smpType': 'None', 'smpGroup': 0, 'smpOrderId': ''}]}, 'retExtInfo': {}, 'time': 1699594023095}
+2023-11-10 09:27:03 [INFO]: 127.0.0.1 - - [10/Nov/2023 09:27:03] "POST /tv_webbhook/gg HTTP/1.1" 200 -
+2023-11-10 09:27:18 [INFO]: 127.0.0.1 - - [10/Nov/2023 09:27:18] "GET /trades HTTP/1.1" 200 -
+2023-11-10 09:27:26 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-10 09:27:26 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-10 09:27:26 [INFO]:  * Restarting with stat
+2023-11-10 09:27:26 [WARNING]:  * Debugger is active!
+2023-11-10 09:27:26 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-10 09:29:11 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\database.py', reloading
+2023-11-10 09:29:11 [INFO]:  * Restarting with stat
+2023-11-10 09:29:12 [WARNING]:  * Debugger is active!
+2023-11-10 09:29:12 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-10 09:29:59 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-10 09:29:59 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-10 09:29:59 [INFO]:  * Restarting with stat
+2023-11-10 09:30:00 [WARNING]:  * Debugger is active!
+2023-11-10 09:30:00 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-10 09:30:01 [INFO]: 127.0.0.1 - - [10/Nov/2023 09:30:01] "GET /trades HTTP/1.1" 200 -
+2023-11-10 09:30:09 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\api_call.py', reloading
+2023-11-10 09:30:09 [INFO]:  * Restarting with stat
+2023-11-10 09:30:09 [WARNING]:  * Debugger is active!
+2023-11-10 09:30:09 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-10 09:30:10 [INFO]: #################### ALERT from tradingview: buy XRPUSDT
+2023-11-10 09:30:10 [INFO]: Bybit market buy order successfully placed:
+2023-11-10 09:30:10 [INFO]: {'retCode': 0, 'retMsg': 'OK', 'result': {'nextPageCursor': '1550703065229731328', 'category': 'spot', 'list': [{'orderLinkId': '16995942107041443', 'orderId': '1550703065229731328', 'blockTradeId': '', 'symbol': 'XRPUSDT', 'price': '0', 'isLeverage': '0', 'positionIdx': 0, 'qty': '10.77', 'side': 'Buy', 'orderStatus': 'PartiallyFilledCanceled', 'cancelType': 'UNKNOWN', 'rejectReason': '', 'avgPrice': '0.6641', 'leavesQty': '', 'leavesValue': '', 'cumExecQty': '16.21', 'cumExecValue': '', 'cumExecFee': '', 'timeInForce': 'GTC', 'orderType': 'Market', 'stopOrderType': '', 'orderIv': '', 'triggerPrice': '', 'takeProfit': '', 'stopLoss': '', 'tpTriggerBy': '', 'slTriggerBy': '', 'triggerDirection': 0, 'triggerBy': '', 'lastPriceOnCreated': '', 'reduceOnly': False, 'closeOnTrigger': False, 'createdTime': '1699594210710', 'updatedTime': '1699594210720', 'smpType': 'None', 'smpGroup': 0, 'smpOrderId': ''}]}, 'retExtInfo': {}, 'time': 1699594210802}
+2023-11-10 09:30:10 [INFO]: 127.0.0.1 - - [10/Nov/2023 09:30:10] "POST /tv_webbhook/gg HTTP/1.1" 200 -
+2023-11-10 09:30:13 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\api_call.py', reloading
+2023-11-10 09:30:13 [INFO]:  * Restarting with stat
+2023-11-10 09:30:13 [WARNING]:  * Debugger is active!
+2023-11-10 09:30:13 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-10 09:30:17 [INFO]: #################### ALERT from tradingview: sell XRPUSDT
+2023-11-10 09:30:18 [INFO]: Bybit market sell order successfully placed:
+2023-11-10 09:30:18 [INFO]: {'retCode': 0, 'retMsg': 'OK', 'result': {'nextPageCursor': '1550703127431353856', 'category': 'spot', 'list': [{'orderLinkId': '16995942181191231', 'orderId': '1550703127431353856', 'blockTradeId': '', 'symbol': 'XRPUSDT', 'price': '0', 'isLeverage': '0', 'positionIdx': 0, 'qty': '16.19', 'side': 'Sell', 'orderStatus': 'Filled', 'cancelType': 'UNKNOWN', 'rejectReason': '', 'avgPrice': '0.6639', 'leavesQty': '', 'leavesValue': '', 'cumExecQty': '16.19', 'cumExecValue': '', 'cumExecFee': '', 'timeInForce': 'GTC', 'orderType': 'Market', 'stopOrderType': '', 'orderIv': '', 'triggerPrice': '', 'takeProfit': '', 'stopLoss': '', 'tpTriggerBy': '', 'slTriggerBy': '', 'triggerDirection': 0, 'triggerBy': '', 'lastPriceOnCreated': '', 'reduceOnly': False, 'closeOnTrigger': False, 'createdTime': '1699594218125', 'updatedTime': '1699594218137', 'smpType': 'None', 'smpGroup': 0, 'smpOrderId': ''}]}, 'retExtInfo': {}, 'time': 1699594218229}
+2023-11-10 09:30:18 [INFO]: 127.0.0.1 - - [10/Nov/2023 09:30:18] "POST /tv_webbhook/gg HTTP/1.1" 200 -
+2023-11-10 09:30:28 [INFO]: 127.0.0.1 - - [10/Nov/2023 09:30:28] "GET /trades HTTP/1.1" 200 -
+2023-11-10 09:32:43 [INFO]: 127.0.0.1 - - [10/Nov/2023 09:32:43] "[35m[1mGET /trades HTTP/1.1[0m" 500 -
+2023-11-10 09:32:43 [INFO]: 127.0.0.1 - - [10/Nov/2023 09:32:43] "GET /trades?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-11-10 09:32:43 [INFO]: 127.0.0.1 - - [10/Nov/2023 09:32:43] "GET /trades?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-11-10 09:32:43 [INFO]: 127.0.0.1 - - [10/Nov/2023 09:32:43] "GET /trades?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-11-10 09:32:43 [INFO]: 127.0.0.1 - - [10/Nov/2023 09:32:43] "[36mGET /trades?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-10 09:32:48 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-10 09:32:48 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-10 09:32:48 [INFO]:  * Restarting with stat
+2023-11-10 09:32:49 [WARNING]:  * Debugger is active!
+2023-11-10 09:32:49 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-10 09:32:52 [INFO]: 127.0.0.1 - - [10/Nov/2023 09:32:52] "[35m[1mGET /trades HTTP/1.1[0m" 500 -
+2023-11-10 09:32:52 [INFO]: 127.0.0.1 - - [10/Nov/2023 09:32:52] "[36mGET /trades?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-11-10 09:32:52 [INFO]: 127.0.0.1 - - [10/Nov/2023 09:32:52] "[36mGET /trades?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-11-10 09:32:52 [INFO]: 127.0.0.1 - - [10/Nov/2023 09:32:52] "[36mGET /trades?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-10 09:32:52 [INFO]: 127.0.0.1 - - [10/Nov/2023 09:32:52] "[36mGET /trades?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-10 09:33:41 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-10 09:33:41 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-10 09:33:41 [INFO]:  * Restarting with stat
+2023-11-10 09:33:41 [WARNING]:  * Debugger is active!
+2023-11-10 09:33:41 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-10 09:33:43 [INFO]: 127.0.0.1 - - [10/Nov/2023 09:33:43] "GET /trades HTTP/1.1" 200 -
+2023-11-10 09:35:35 [INFO]: 127.0.0.1 - - [10/Nov/2023 09:35:35] "GET /trades HTTP/1.1" 200 -
+2023-11-10 09:35:35 [INFO]: 127.0.0.1 - - [10/Nov/2023 09:35:35] "GET /static/css/trades_styles.css HTTP/1.1" 200 -
+2023-11-10 20:53:21 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-10 20:53:21 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-10 20:53:21 [INFO]:  * Restarting with stat
+2023-11-10 20:53:22 [WARNING]:  * Debugger is active!
+2023-11-10 20:53:22 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-10 22:27:03 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-10 22:27:03 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-10 22:27:03 [INFO]:  * Restarting with stat
+2023-11-10 22:27:03 [WARNING]:  * Debugger is active!
+2023-11-10 22:27:03 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-10 22:27:24 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\api_call.py', reloading
+2023-11-10 22:27:24 [INFO]:  * Restarting with stat
+2023-11-10 22:27:24 [WARNING]:  * Debugger is active!
+2023-11-10 22:27:24 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-10 22:27:25 [INFO]: #################### ALERT from tradingview: buy XRPUSDT
+2023-11-10 22:27:26 [INFO]: Bybit market buy order successfully placed:
+2023-11-10 22:27:26 [INFO]: {'retCode': 0, 'retMsg': 'OK', 'result': {'nextPageCursor': '1551094276679545856', 'category': 'spot', 'list': [{'orderLinkId': '16996408467391219', 'orderId': '1551094276679545856', 'blockTradeId': '', 'symbol': 'XRPUSDT', 'price': '0', 'isLeverage': '0', 'positionIdx': 0, 'qty': '10.75', 'side': 'Buy', 'orderStatus': 'PartiallyFilledCanceled', 'cancelType': 'UNKNOWN', 'rejectReason': '', 'avgPrice': '0.6598', 'leavesQty': '', 'leavesValue': '', 'cumExecQty': '16.29', 'cumExecValue': '', 'cumExecFee': '', 'timeInForce': 'GTC', 'orderType': 'Market', 'stopOrderType': '', 'orderIv': '', 'triggerPrice': '', 'takeProfit': '', 'stopLoss': '', 'tpTriggerBy': '', 'slTriggerBy': '', 'triggerDirection': 0, 'triggerBy': '', 'lastPriceOnCreated': '', 'reduceOnly': False, 'closeOnTrigger': False, 'createdTime': '1699640846749', 'updatedTime': '1699640846764', 'smpType': 'None', 'smpGroup': 0, 'smpOrderId': ''}]}, 'retExtInfo': {}, 'time': 1699640846846}
+2023-11-10 22:27:26 [INFO]: 127.0.0.1 - - [10/Nov/2023 22:27:26] "POST /tv_webbhook/gg HTTP/1.1" 200 -
+2023-11-10 22:27:29 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\api_call.py', reloading
+2023-11-10 22:27:29 [INFO]:  * Restarting with stat
+2023-11-10 22:27:29 [WARNING]:  * Debugger is active!
+2023-11-10 22:27:29 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-10 22:27:45 [INFO]: 127.0.0.1 - - [10/Nov/2023 22:27:45] "GET / HTTP/1.1" 200 -
+2023-11-10 22:27:45 [INFO]: 127.0.0.1 - - [10/Nov/2023 22:27:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-11-10 22:27:47 [INFO]: 127.0.0.1 - - [10/Nov/2023 22:27:47] "GET /login HTTP/1.1" 200 -
+2023-11-10 22:27:47 [INFO]: 127.0.0.1 - - [10/Nov/2023 22:27:47] "GET /static/css/login_styles.css HTTP/1.1" 200 -
+2023-11-10 22:27:50 [INFO]: 127.0.0.1 - - [10/Nov/2023 22:27:50] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-11-10 22:27:50 [INFO]: 127.0.0.1 - - [10/Nov/2023 22:27:50] "GET / HTTP/1.1" 200 -
+2023-11-10 22:27:57 [INFO]: 127.0.0.1 - - [10/Nov/2023 22:27:57] "GET /trades HTTP/1.1" 200 -
+2023-11-10 22:27:57 [INFO]: 127.0.0.1 - - [10/Nov/2023 22:27:57] "GET /static/css/trades_styles.css HTTP/1.1" 200 -
+2023-11-10 22:28:15 [INFO]: #################### ALERT from tradingview: sell XRPUSDT
+2023-11-10 22:28:16 [INFO]: Bybit market sell order successfully placed:
+2023-11-10 22:28:16 [INFO]: {'retCode': 0, 'retMsg': 'OK', 'result': {'nextPageCursor': '1551094699205431040', 'category': 'spot', 'list': [{'orderLinkId': '16996408971111526', 'orderId': '1551094699205431040', 'blockTradeId': '', 'symbol': 'XRPUSDT', 'price': '0', 'isLeverage': '0', 'positionIdx': 0, 'qty': '16.28', 'side': 'Sell', 'orderStatus': 'Filled', 'cancelType': 'UNKNOWN', 'rejectReason': '', 'avgPrice': '0.6601', 'leavesQty': '', 'leavesValue': '', 'cumExecQty': '16.28', 'cumExecValue': '', 'cumExecFee': '', 'timeInForce': 'GTC', 'orderType': 'Market', 'stopOrderType': '', 'orderIv': '', 'triggerPrice': '', 'takeProfit': '', 'stopLoss': '', 'tpTriggerBy': '', 'slTriggerBy': '', 'triggerDirection': 0, 'triggerBy': '', 'lastPriceOnCreated': '', 'reduceOnly': False, 'closeOnTrigger': False, 'createdTime': '1699640897118', 'updatedTime': '1699640897132', 'smpType': 'None', 'smpGroup': 0, 'smpOrderId': ''}]}, 'retExtInfo': {}, 'time': 1699640897396}
+2023-11-10 22:28:16 [INFO]: 127.0.0.1 - - [10/Nov/2023 22:28:16] "POST /tv_webbhook/gg HTTP/1.1" 200 -
+2023-11-10 22:28:22 [INFO]: 127.0.0.1 - - [10/Nov/2023 22:28:22] "GET /trades HTTP/1.1" 200 -
+2023-11-10 22:28:22 [INFO]: 127.0.0.1 - - [10/Nov/2023 22:28:22] "[36mGET /static/css/trades_styles.css HTTP/1.1[0m" 304 -
+2023-11-10 23:11:04 [INFO]: 127.0.0.1 - - [10/Nov/2023 23:11:04] "GET / HTTP/1.1" 200 -
+2023-11-10 23:16:13 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\app.py', reloading
+2023-11-10 23:16:13 [INFO]:  * Restarting with stat
+2023-11-10 23:16:13 [WARNING]:  * Debugger is active!
+2023-11-10 23:16:13 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-10 23:24:01 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\data_objects.py', reloading
+2023-11-10 23:24:01 [INFO]:  * Restarting with stat
+2023-11-10 23:28:47 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-10 23:28:47 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-10 23:28:47 [INFO]:  * Restarting with stat
+2023-11-10 23:28:47 [WARNING]:  * Debugger is active!
+2023-11-10 23:28:47 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-10 23:28:52 [INFO]: 127.0.0.1 - - [10/Nov/2023 23:28:52] "[33mGET / HTTP/1.1[0m" 404 -
+2023-11-10 23:29:08 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\app.py', reloading
+2023-11-10 23:29:08 [INFO]:  * Restarting with stat
+2023-11-10 23:29:09 [WARNING]:  * Debugger is active!
+2023-11-10 23:29:09 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-10 23:29:11 [INFO]: 127.0.0.1 - - [10/Nov/2023 23:29:11] "[33mGET / HTTP/1.1[0m" 404 -
+2023-11-10 23:29:13 [INFO]: 127.0.0.1 - - [10/Nov/2023 23:29:13] "[33mGET / HTTP/1.1[0m" 404 -
+2023-11-10 23:29:33 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-10 23:29:33 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-10 23:29:33 [INFO]:  * Restarting with stat
+2023-11-10 23:29:34 [WARNING]:  * Debugger is active!
+2023-11-10 23:29:34 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-10 23:29:36 [INFO]: 127.0.0.1 - - [10/Nov/2023 23:29:36] "[35m[1mGET /trades HTTP/1.1[0m" 500 -
+2023-11-10 23:29:36 [INFO]: 127.0.0.1 - - [10/Nov/2023 23:29:36] "GET /trades?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-11-10 23:29:36 [INFO]: 127.0.0.1 - - [10/Nov/2023 23:29:36] "GET /trades?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-11-10 23:29:36 [INFO]: 127.0.0.1 - - [10/Nov/2023 23:29:36] "GET /trades?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-11-10 23:29:37 [INFO]: 127.0.0.1 - - [10/Nov/2023 23:29:37] "[36mGET /trades?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-10 23:29:38 [INFO]: 127.0.0.1 - - [10/Nov/2023 23:29:38] "[35m[1mGET /trades HTTP/1.1[0m" 500 -
+2023-11-10 23:29:39 [INFO]: 127.0.0.1 - - [10/Nov/2023 23:29:39] "[36mGET /trades?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-11-10 23:29:39 [INFO]: 127.0.0.1 - - [10/Nov/2023 23:29:39] "[36mGET /trades?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-11-10 23:29:39 [INFO]: 127.0.0.1 - - [10/Nov/2023 23:29:39] "[36mGET /trades?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-10 23:29:39 [INFO]: 127.0.0.1 - - [10/Nov/2023 23:29:39] "[36mGET /trades?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-10 23:29:50 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\app.py', reloading
+2023-11-10 23:29:50 [INFO]:  * Restarting with stat
+2023-11-10 23:29:50 [WARNING]:  * Debugger is active!
+2023-11-10 23:29:50 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-10 23:29:52 [INFO]: 127.0.0.1 - - [10/Nov/2023 23:29:52] "GET /trades HTTP/1.1" 200 -
+2023-11-10 23:29:52 [INFO]: 127.0.0.1 - - [10/Nov/2023 23:29:52] "[36mGET /static/css/trades_styles.css HTTP/1.1[0m" 304 -
+2023-11-10 23:30:17 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\app.py', reloading
+2023-11-10 23:30:17 [INFO]:  * Restarting with stat
+2023-11-10 23:30:17 [WARNING]:  * Debugger is active!
+2023-11-10 23:30:17 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-10 23:34:13 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\app.py', reloading
+2023-11-10 23:34:13 [INFO]:  * Restarting with stat
+2023-11-10 23:34:13 [WARNING]:  * Debugger is active!
+2023-11-10 23:34:13 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-10 23:36:53 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\app.py', reloading
+2023-11-10 23:36:53 [INFO]:  * Restarting with stat
+2023-11-11 00:02:31 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-11 00:02:31 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-11 00:02:31 [INFO]:  * Restarting with stat
+2023-11-11 00:02:32 [WARNING]:  * Debugger is active!
+2023-11-11 00:02:32 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-11 00:02:34 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\app.py', reloading
+2023-11-11 00:02:34 [INFO]:  * Restarting with stat
+2023-11-11 00:02:34 [WARNING]:  * Debugger is active!
+2023-11-11 00:02:34 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-11 00:02:36 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:02:36] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-11-11 00:02:36 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:02:36] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-11-11 00:02:36 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:02:36] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-11-11 00:02:37 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:02:37] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-11-11 00:02:37 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:02:37] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-11 00:02:50 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-11 00:02:50 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-11 00:02:50 [INFO]:  * Restarting with stat
+2023-11-11 00:02:50 [WARNING]:  * Debugger is active!
+2023-11-11 00:02:50 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-11 00:03:00 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:03:00] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-11-11 00:03:00 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:03:00] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-11-11 00:03:00 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:03:00] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-11-11 00:03:01 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:03:01] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-11 00:03:01 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:03:01] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-11 00:03:14 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-11 00:03:14 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-11 00:03:14 [INFO]:  * Restarting with stat
+2023-11-11 00:03:15 [WARNING]:  * Debugger is active!
+2023-11-11 00:03:15 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-11 00:03:30 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:03:30] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-11-11 00:03:30 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:03:30] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-11-11 00:03:30 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:03:30] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-11-11 00:03:31 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:03:31] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-11 00:03:31 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:03:31] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-11 00:04:52 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\database.py', reloading
+2023-11-11 00:04:52 [INFO]:  * Restarting with stat
+2023-11-11 00:04:53 [WARNING]:  * Debugger is active!
+2023-11-11 00:04:53 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-11 00:05:21 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\database.py', reloading
+2023-11-11 00:05:21 [INFO]:  * Restarting with stat
+2023-11-11 00:05:22 [WARNING]:  * Debugger is active!
+2023-11-11 00:05:22 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-11 00:05:31 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-11 00:05:31 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-11 00:05:31 [INFO]:  * Restarting with stat
+2023-11-11 00:05:32 [WARNING]:  * Debugger is active!
+2023-11-11 00:05:32 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-11 00:05:37 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:05:37] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-11-11 00:05:37 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:05:37] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-11-11 00:05:37 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:05:37] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-11-11 00:05:37 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:05:37] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-11 00:05:38 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:05:38] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-11 00:05:53 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-11 00:05:53 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-11 00:05:53 [INFO]:  * Restarting with stat
+2023-11-11 00:05:53 [WARNING]:  * Debugger is active!
+2023-11-11 00:05:53 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-11 00:06:07 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\api_call.py', reloading
+2023-11-11 00:06:07 [INFO]:  * Restarting with stat
+2023-11-11 00:06:08 [WARNING]:  * Debugger is active!
+2023-11-11 00:06:08 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-11 00:06:09 [INFO]: #################### ALERT from tradingview: buy XRPUSDT
+2023-11-11 00:06:09 [INFO]: Bybit market buy order successfully placed:
+2023-11-11 00:06:10 [INFO]: {'retCode': 0, 'retMsg': 'OK', 'result': {'nextPageCursor': '1551143972362073600', 'category': 'spot', 'list': [{'orderLinkId': '16996467709301554', 'orderId': '1551143972362073600', 'blockTradeId': '', 'symbol': 'XRPUSDT', 'price': '0', 'isLeverage': '0', 'positionIdx': 0, 'qty': '10.75', 'side': 'Buy', 'orderStatus': 'PartiallyFilledCanceled', 'cancelType': 'UNKNOWN', 'rejectReason': '', 'avgPrice': '0.6581', 'leavesQty': '', 'leavesValue': '', 'cumExecQty': '16.33', 'cumExecValue': '', 'cumExecFee': '', 'timeInForce': 'GTC', 'orderType': 'Market', 'stopOrderType': '', 'orderIv': '', 'triggerPrice': '', 'takeProfit': '', 'stopLoss': '', 'tpTriggerBy': '', 'slTriggerBy': '', 'triggerDirection': 0, 'triggerBy': '', 'lastPriceOnCreated': '', 'reduceOnly': False, 'closeOnTrigger': False, 'createdTime': '1699646770936', 'updatedTime': '1699646770949', 'smpType': 'None', 'smpGroup': 0, 'smpOrderId': ''}]}, 'retExtInfo': {}, 'time': 1699646771174}
+2023-11-11 00:06:10 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:06:10] "POST /tv_webbhook/gg HTTP/1.1" 200 -
+2023-11-11 00:06:11 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\api_call.py', reloading
+2023-11-11 00:06:11 [INFO]:  * Restarting with stat
+2023-11-11 00:06:11 [WARNING]:  * Debugger is active!
+2023-11-11 00:06:11 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-11 00:06:15 [INFO]: #################### ALERT from tradingview: sell XRPUSDT
+2023-11-11 00:06:15 [INFO]: Bybit market sell order successfully placed:
+2023-11-11 00:06:15 [INFO]: {'retCode': 0, 'retMsg': 'OK', 'result': {'nextPageCursor': '1551144020537873152', 'category': 'spot', 'list': [{'orderLinkId': '16996467766721054', 'orderId': '1551144020537873152', 'blockTradeId': '', 'symbol': 'XRPUSDT', 'price': '0', 'isLeverage': '0', 'positionIdx': 0, 'qty': '16.31', 'side': 'Sell', 'orderStatus': 'Filled', 'cancelType': 'UNKNOWN', 'rejectReason': '', 'avgPrice': '0.6579', 'leavesQty': '', 'leavesValue': '', 'cumExecQty': '16.31', 'cumExecValue': '', 'cumExecFee': '', 'timeInForce': 'GTC', 'orderType': 'Market', 'stopOrderType': '', 'orderIv': '', 'triggerPrice': '', 'takeProfit': '', 'stopLoss': '', 'tpTriggerBy': '', 'slTriggerBy': '', 'triggerDirection': 0, 'triggerBy': '', 'lastPriceOnCreated': '', 'reduceOnly': False, 'closeOnTrigger': False, 'createdTime': '1699646776679', 'updatedTime': '1699646776691', 'smpType': 'None', 'smpGroup': 0, 'smpOrderId': ''}]}, 'retExtInfo': {}, 'time': 1699646776915}
+2023-11-11 00:06:16 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:06:16] "POST /tv_webbhook/gg HTTP/1.1" 200 -
+2023-11-11 00:06:25 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-11 00:06:25 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-11 00:06:25 [INFO]:  * Restarting with stat
+2023-11-11 00:06:26 [WARNING]:  * Debugger is active!
+2023-11-11 00:06:26 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-11 00:07:40 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:07:40] "GET / HTTP/1.1" 200 -
+2023-11-11 00:09:02 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-11 00:09:02 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-11 00:09:02 [INFO]:  * Restarting with stat
+2023-11-11 00:09:03 [WARNING]:  * Debugger is active!
+2023-11-11 00:09:03 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-11 00:09:04 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:09:04] "GET / HTTP/1.1" 200 -
+2023-11-11 00:09:04 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:09:04] "GET /static/css/dashboard_styles.css HTTP/1.1" 200 -
+2023-11-11 00:09:05 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:09:05] "GET / HTTP/1.1" 200 -
+2023-11-11 00:09:05 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:09:05] "[36mGET /static/css/dashboard_styles.css HTTP/1.1[0m" 304 -
+2023-11-11 00:09:36 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:09:36] "GET / HTTP/1.1" 200 -
+2023-11-11 00:09:36 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:09:36] "[36mGET /static/css/dashboard_styles.css HTTP/1.1[0m" 304 -
+2023-11-11 00:09:48 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:09:48] "GET / HTTP/1.1" 200 -
+2023-11-11 00:09:48 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:09:48] "[36mGET /static/css/dashboard_styles.css HTTP/1.1[0m" 304 -
+2023-11-11 00:09:50 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:09:50] "GET / HTTP/1.1" 200 -
+2023-11-11 00:09:50 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:09:50] "[36mGET /static/css/dashboard_styles.css HTTP/1.1[0m" 304 -
+2023-11-11 00:10:02 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:10:02] "GET / HTTP/1.1" 200 -
+2023-11-11 00:10:02 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:10:02] "[36mGET /static/css/dashboard_styles.css HTTP/1.1[0m" 304 -
+2023-11-11 00:10:28 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:10:28] "GET / HTTP/1.1" 200 -
+2023-11-11 00:10:28 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:10:28] "[36mGET /static/css/dashboard_styles.css HTTP/1.1[0m" 304 -
+2023-11-11 00:10:32 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:10:32] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-11-11 00:10:32 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:10:32] "GET / HTTP/1.1" 200 -
+2023-11-11 00:10:34 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:10:34] "GET /login HTTP/1.1" 200 -
+2023-11-11 00:10:34 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:10:34] "[36mGET /static/css/login_styles.css HTTP/1.1[0m" 304 -
+2023-11-11 00:10:35 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:10:35] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-11-11 00:10:36 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:10:36] "GET / HTTP/1.1" 200 -
+2023-11-11 00:10:36 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:10:36] "[36mGET /static/css/dashboard_styles.css HTTP/1.1[0m" 304 -
+2023-11-11 00:10:56 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:10:56] "GET /trades HTTP/1.1" 200 -
+2023-11-11 00:10:56 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:10:56] "[36mGET /static/css/trades_styles.css HTTP/1.1[0m" 304 -
+2023-11-11 00:11:15 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:11:15] "GET /settings HTTP/1.1" 200 -
+2023-11-11 00:11:15 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:11:15] "GET /static/js/update_settings.js HTTP/1.1" 200 -
+2023-11-11 00:11:28 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:11:28] "POST /update_bybit_settings HTTP/1.1" 200 -
+2023-11-11 00:11:48 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\api_call.py', reloading
+2023-11-11 00:11:48 [INFO]:  * Restarting with stat
+2023-11-11 00:11:48 [WARNING]:  * Debugger is active!
+2023-11-11 00:11:48 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-11 00:11:50 [INFO]: #################### ALERT from tradingview: buy XRPUSDT
+2023-11-11 00:11:50 [INFO]: Bybit market buy order successfully placed:
+2023-11-11 00:11:50 [INFO]: {'retCode': 0, 'retMsg': 'OK', 'result': {'nextPageCursor': '1551146831233234432', 'category': 'spot', 'list': [{'orderLinkId': '16996471117341263', 'orderId': '1551146831233234432', 'blockTradeId': '', 'symbol': 'XRPUSDT', 'price': '0', 'isLeverage': '0', 'positionIdx': 0, 'qty': '16.10', 'side': 'Buy', 'orderStatus': 'PartiallyFilledCanceled', 'cancelType': 'UNKNOWN', 'rejectReason': '', 'avgPrice': '0.6569', 'leavesQty': '', 'leavesValue': '', 'cumExecQty': '24.5', 'cumExecValue': '', 'cumExecFee': '', 'timeInForce': 'GTC', 'orderType': 'Market', 'stopOrderType': '', 'orderIv': '', 'triggerPrice': '', 'takeProfit': '', 'stopLoss': '', 'tpTriggerBy': '', 'slTriggerBy': '', 'triggerDirection': 0, 'triggerBy': '', 'lastPriceOnCreated': '', 'reduceOnly': False, 'closeOnTrigger': False, 'createdTime': '1699647111740', 'updatedTime': '1699647111752', 'smpType': 'None', 'smpGroup': 0, 'smpOrderId': ''}]}, 'retExtInfo': {}, 'time': 1699647111836}
+2023-11-11 00:11:50 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:11:50] "POST /tv_webbhook/gg HTTP/1.1" 200 -
+2023-11-11 00:11:53 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\api_call.py', reloading
+2023-11-11 00:11:53 [INFO]:  * Restarting with stat
+2023-11-11 00:11:54 [WARNING]:  * Debugger is active!
+2023-11-11 00:11:54 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-11 00:11:57 [INFO]: #################### ALERT from tradingview: sell XRPUSDT
+2023-11-11 00:11:57 [INFO]: Bybit market sell order successfully placed:
+2023-11-11 00:11:57 [INFO]: {'retCode': 0, 'retMsg': 'OK', 'result': {'nextPageCursor': '1551146889550771200', 'category': 'spot', 'list': [{'orderLinkId': '16996471186861296', 'orderId': '1551146889550771200', 'blockTradeId': '', 'symbol': 'XRPUSDT', 'price': '0', 'isLeverage': '0', 'positionIdx': 0, 'qty': '24.47', 'side': 'Sell', 'orderStatus': 'Filled', 'cancelType': 'UNKNOWN', 'rejectReason': '', 'avgPrice': '0.657', 'leavesQty': '', 'leavesValue': '', 'cumExecQty': '24.47', 'cumExecValue': '', 'cumExecFee': '', 'timeInForce': 'GTC', 'orderType': 'Market', 'stopOrderType': '', 'orderIv': '', 'triggerPrice': '', 'takeProfit': '', 'stopLoss': '', 'tpTriggerBy': '', 'slTriggerBy': '', 'triggerDirection': 0, 'triggerBy': '', 'lastPriceOnCreated': '', 'reduceOnly': False, 'closeOnTrigger': False, 'createdTime': '1699647118692', 'updatedTime': '1699647118706', 'smpType': 'None', 'smpGroup': 0, 'smpOrderId': ''}]}, 'retExtInfo': {}, 'time': 1699647118949}
+2023-11-11 00:11:58 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:11:58] "POST /tv_webbhook/gg HTTP/1.1" 200 -
+2023-11-11 00:12:05 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:12:05] "GET / HTTP/1.1" 200 -
+2023-11-11 00:12:05 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:12:05] "[36mGET /static/css/dashboard_styles.css HTTP/1.1[0m" 304 -
+2023-11-11 00:12:15 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:12:15] "GET /trades HTTP/1.1" 200 -
+2023-11-11 00:12:15 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:12:15] "[36mGET /static/css/trades_styles.css HTTP/1.1[0m" 304 -
+2023-11-11 00:12:25 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:12:25] "GET /settings HTTP/1.1" 200 -
+2023-11-11 00:12:25 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:12:25] "[36mGET /static/js/update_settings.js HTTP/1.1[0m" 304 -
+2023-11-11 00:12:29 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:12:29] "POST /update_bybit_settings HTTP/1.1" 200 -
+2023-11-11 00:12:34 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:12:34] "GET / HTTP/1.1" 200 -
+2023-11-11 00:12:34 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:12:34] "[36mGET /static/css/dashboard_styles.css HTTP/1.1[0m" 304 -
+2023-11-11 00:12:55 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\api_call.py', reloading
+2023-11-11 00:12:55 [INFO]:  * Restarting with stat
+2023-11-11 00:12:55 [WARNING]:  * Debugger is active!
+2023-11-11 00:12:55 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-11 00:13:00 [INFO]: #################### ALERT from tradingview: buy XRPUSDT
+2023-11-11 00:13:00 [INFO]: Bybit market buy order successfully placed:
+2023-11-11 00:13:01 [INFO]: {'retCode': 0, 'retMsg': 'OK', 'result': {'nextPageCursor': '1551147420163781632', 'category': 'spot', 'list': [{'orderLinkId': '16996471819381454', 'orderId': '1551147420163781632', 'blockTradeId': '', 'symbol': 'XRPUSDT', 'price': '0', 'isLeverage': '0', 'positionIdx': 0, 'qty': '10.72', 'side': 'Buy', 'orderStatus': 'PartiallyFilledCanceled', 'cancelType': 'UNKNOWN', 'rejectReason': '', 'avgPrice': '0.6567', 'leavesQty': '', 'leavesValue': '', 'cumExecQty': '16.32', 'cumExecValue': '', 'cumExecFee': '', 'timeInForce': 'GTC', 'orderType': 'Market', 'stopOrderType': '', 'orderIv': '', 'triggerPrice': '', 'takeProfit': '', 'stopLoss': '', 'tpTriggerBy': '', 'slTriggerBy': '', 'triggerDirection': 0, 'triggerBy': '', 'lastPriceOnCreated': '', 'reduceOnly': False, 'closeOnTrigger': False, 'createdTime': '1699647181946', 'updatedTime': '1699647181958', 'smpType': 'None', 'smpGroup': 0, 'smpOrderId': ''}]}, 'retExtInfo': {}, 'time': 1699647182042}
+2023-11-11 00:13:01 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:13:01] "POST /tv_webbhook/gg HTTP/1.1" 200 -
+2023-11-11 00:13:04 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:13:04] "GET / HTTP/1.1" 200 -
+2023-11-11 00:13:04 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:13:04] "[36mGET /static/css/dashboard_styles.css HTTP/1.1[0m" 304 -
+2023-11-11 00:13:27 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:13:27] "GET /trades HTTP/1.1" 200 -
+2023-11-11 00:13:27 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:13:27] "[36mGET /static/css/trades_styles.css HTTP/1.1[0m" 304 -
+2023-11-11 00:13:33 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:13:33] "GET / HTTP/1.1" 200 -
+2023-11-11 00:13:33 [INFO]: 127.0.0.1 - - [11/Nov/2023 00:13:33] "[36mGET /static/css/dashboard_styles.css HTTP/1.1[0m" 304 -
+2023-11-11 00:33:26 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\app.py', reloading
+2023-11-11 00:33:26 [INFO]:  * Restarting with stat
+2023-11-11 00:33:26 [WARNING]:  * Debugger is active!
+2023-11-11 00:33:26 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-11 00:41:27 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\app.py', reloading
+2023-11-11 00:41:27 [INFO]:  * Restarting with stat
+2023-11-11 00:41:28 [WARNING]:  * Debugger is active!
+2023-11-11 00:41:28 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-11 00:43:13 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\app.py', reloading
+2023-11-11 00:43:13 [INFO]:  * Restarting with stat
+2023-11-11 00:43:14 [WARNING]:  * Debugger is active!
+2023-11-11 00:43:14 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-11 00:47:07 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\app.py', reloading
+2023-11-11 00:47:07 [INFO]:  * Restarting with stat
+2023-11-11 00:47:07 [WARNING]:  * Debugger is active!
+2023-11-11 00:47:07 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-11 00:49:53 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\app.py', reloading
+2023-11-11 00:49:53 [INFO]:  * Restarting with stat
+2023-11-11 01:11:01 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3100
+ * Running on http://192.168.0.182:3100
+2023-11-11 01:11:01 [INFO]: [33mPress CTRL+C to quit[0m
+2023-11-11 01:11:01 [INFO]:  * Restarting with stat
+2023-11-11 01:11:01 [WARNING]:  * Debugger is active!
+2023-11-11 01:11:01 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-11 01:11:05 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:11:05] "GET / HTTP/1.1" 200 -
+2023-11-11 01:11:05 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:11:05] "[36mGET /static/css/dashboard_styles.css HTTP/1.1[0m" 304 -
+2023-11-11 01:14:27 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:14:27] "GET / HTTP/1.1" 200 -
+2023-11-11 01:14:27 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:14:27] "GET /static/css/dashboard_styles.css HTTP/1.1" 200 -
+2023-11-11 01:14:51 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:14:51] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-11-11 01:14:51 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:14:51] "GET / HTTP/1.1" 200 -
+2023-11-11 01:14:59 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:14:59] "GET / HTTP/1.1" 200 -
+2023-11-11 01:15:03 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:15:03] "GET /login HTTP/1.1" 200 -
+2023-11-11 01:15:03 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:15:03] "[36mGET /static/css/login_styles.css HTTP/1.1[0m" 304 -
+2023-11-11 01:15:04 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:15:04] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-11-11 01:15:05 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:15:05] "GET / HTTP/1.1" 200 -
+2023-11-11 01:15:05 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:15:05] "[36mGET /static/css/dashboard_styles.css HTTP/1.1[0m" 304 -
+2023-11-11 01:15:44 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:15:44] "GET / HTTP/1.1" 200 -
+2023-11-11 01:15:44 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:15:44] "GET /static/css/dashboard_styles.css HTTP/1.1" 200 -
+2023-11-11 01:44:06 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:44:06] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-11-11 01:44:07 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:44:07] "GET / HTTP/1.1" 200 -
+2023-11-11 01:44:09 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:44:09] "GET /login HTTP/1.1" 200 -
+2023-11-11 01:44:09 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:44:09] "[36mGET /static/css/login_styles.css HTTP/1.1[0m" 304 -
+2023-11-11 01:44:39 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:44:39] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-11-11 01:44:40 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:44:40] "GET / HTTP/1.1" 200 -
+2023-11-11 01:44:40 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:44:40] "[36mGET /static/css/dashboard_styles.css HTTP/1.1[0m" 304 -
+2023-11-11 01:45:05 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:45:05] "GET /trades HTTP/1.1" 200 -
+2023-11-11 01:45:05 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:45:05] "[36mGET /static/css/trades_styles.css HTTP/1.1[0m" 304 -
+2023-11-11 01:45:21 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:45:21] "GET /settings HTTP/1.1" 200 -
+2023-11-11 01:45:22 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:45:22] "[36mGET /static/js/update_settings.js HTTP/1.1[0m" 304 -
+2023-11-11 01:45:44 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:45:44] "POST /update_targets HTTP/1.1" 200 -
+2023-11-11 01:45:47 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:45:47] "GET /settings HTTP/1.1" 200 -
+2023-11-11 01:45:47 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:45:47] "[36mGET /static/js/update_settings.js HTTP/1.1[0m" 304 -
+2023-11-11 01:45:50 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:45:50] "GET / HTTP/1.1" 200 -
+2023-11-11 01:45:50 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:45:50] "[36mGET /static/css/dashboard_styles.css HTTP/1.1[0m" 304 -
+2023-11-11 01:45:52 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:45:52] "GET /trades HTTP/1.1" 200 -
+2023-11-11 01:45:52 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:45:52] "[36mGET /static/css/trades_styles.css HTTP/1.1[0m" 304 -
+2023-11-11 01:45:52 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:45:52] "GET /settings HTTP/1.1" 200 -
+2023-11-11 01:45:53 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:45:53] "[36mGET /static/js/update_settings.js HTTP/1.1[0m" 304 -
+2023-11-11 01:46:17 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:46:17] "GET / HTTP/1.1" 200 -
+2023-11-11 01:46:17 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:46:17] "[36mGET /static/css/dashboard_styles.css HTTP/1.1[0m" 304 -
+2023-11-11 01:46:19 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:46:19] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-11-11 01:46:19 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:46:19] "GET / HTTP/1.1" 200 -
+2023-11-11 01:46:20 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:46:20] "GET /login HTTP/1.1" 200 -
+2023-11-11 01:46:21 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:46:21] "[36mGET /static/css/login_styles.css HTTP/1.1[0m" 304 -
+2023-11-11 01:47:24 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:47:24] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-11-11 01:47:25 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:47:25] "GET / HTTP/1.1" 200 -
+2023-11-11 01:47:25 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:47:25] "[36mGET /static/css/dashboard_styles.css HTTP/1.1[0m" 304 -
+2023-11-11 01:55:13 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:55:13] "GET /trades HTTP/1.1" 200 -
+2023-11-11 01:55:14 [INFO]: 127.0.0.1 - - [11/Nov/2023 01:55:14] "[36mGET /static/css/trades_styles.css HTTP/1.1[0m" 304 -
+2023-11-11 02:03:37 [INFO]: 127.0.0.1 - - [11/Nov/2023 02:03:37] "GET /settings HTTP/1.1" 200 -
+2023-11-11 02:03:38 [INFO]: 127.0.0.1 - - [11/Nov/2023 02:03:38] "[36mGET /static/js/update_settings.js HTTP/1.1[0m" 304 -
+2023-11-11 02:05:01 [INFO]: 127.0.0.1 - - [11/Nov/2023 02:05:01] "POST /update_targets HTTP/1.1" 200 -
+2023-11-11 02:05:03 [INFO]: 127.0.0.1 - - [11/Nov/2023 02:05:03] "POST /update_bybit_settings HTTP/1.1" 200 -
+2023-11-11 02:05:26 [INFO]: 127.0.0.1 - - [11/Nov/2023 02:05:26] "GET /trades HTTP/1.1" 200 -
+2023-11-11 02:05:26 [INFO]: 127.0.0.1 - - [11/Nov/2023 02:05:26] "[36mGET /static/css/trades_styles.css HTTP/1.1[0m" 304 -
+2023-11-11 02:12:31 [INFO]:  * Detected change in 'D:\\projects\\umronline_crypto_bot_site\\api_call.py', reloading
+2023-11-11 02:12:31 [INFO]:  * Restarting with stat
+2023-11-11 02:12:31 [WARNING]:  * Debugger is active!
+2023-11-11 02:12:31 [INFO]:  * Debugger PIN: 344-952-446
+2023-11-11 02:12:38 [INFO]: #################### ALERT from tradingview: sell XRPUSDT
+2023-11-11 02:12:39 [INFO]: Bybit market sell order successfully placed:
+2023-11-11 02:12:39 [INFO]: {'retCode': 0, 'retMsg': 'OK', 'result': {'nextPageCursor': '1551207641267705344', 'category': 'spot', 'list': [{'orderLinkId': '16996543608521228', 'orderId': '1551207641267705344', 'blockTradeId': '', 'symbol': 'XRPUSDT', 'price': '0', 'isLeverage': '0', 'positionIdx': 0, 'qty': '16.31', 'side': 'Sell', 'orderStatus': 'Filled', 'cancelType': 'UNKNOWN', 'rejectReason': '', 'avgPrice': '0.6643', 'leavesQty': '', 'leavesValue': '', 'cumExecQty': '16.31', 'cumExecValue': '', 'cumExecFee': '', 'timeInForce': 'GTC', 'orderType': 'Market', 'stopOrderType': '', 'orderIv': '', 'triggerPrice': '', 'takeProfit': '', 'stopLoss': '', 'tpTriggerBy': '', 'slTriggerBy': '', 'triggerDirection': 0, 'triggerBy': '', 'lastPriceOnCreated': '', 'reduceOnly': False, 'closeOnTrigger': False, 'createdTime': '1699654360861', 'updatedTime': '1699654360876', 'smpType': 'None', 'smpGroup': 0, 'smpOrderId': ''}]}, 'retExtInfo': {}, 'time': 1699654361101}
+2023-11-11 02:12:40 [INFO]: 127.0.0.1 - - [11/Nov/2023 02:12:40] "POST /tv_webbhook/gg HTTP/1.1" 200 -
+2023-11-11 02:12:44 [INFO]: 127.0.0.1 - - [11/Nov/2023 02:12:44] "GET /trades HTTP/1.1" 200 -
+2023-11-11 02:12:44 [INFO]: 127.0.0.1 - - [11/Nov/2023 02:12:44] "[36mGET /static/css/trades_styles.css HTTP/1.1[0m" 304 -
+2023-11-11 02:12:48 [INFO]: 127.0.0.1 - - [11/Nov/2023 02:12:48] "GET / HTTP/1.1" 200 -
+2023-11-11 02:12:49 [INFO]: 127.0.0.1 - - [11/Nov/2023 02:12:49] "[36mGET /static/css/dashboard_styles.css HTTP/1.1[0m" 304 -
+2023-11-11 02:14:16 [INFO]: 127.0.0.1 - - [11/Nov/2023 02:14:16] "GET / HTTP/1.1" 200 -
+2023-11-11 02:14:16 [INFO]: 127.0.0.1 - - [11/Nov/2023 02:14:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-11-11 02:14:18 [INFO]: 127.0.0.1 - - [11/Nov/2023 02:14:18] "GET /login HTTP/1.1" 200 -
+2023-11-11 02:14:18 [INFO]: 127.0.0.1 - - [11/Nov/2023 02:14:18] "[36mGET /static/css/login_styles.css HTTP/1.1[0m" 304 -
+2023-11-11 02:14:19 [INFO]: 127.0.0.1 - - [11/Nov/2023 02:14:19] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-11-11 02:14:20 [INFO]: 127.0.0.1 - - [11/Nov/2023 02:14:20] "GET / HTTP/1.1" 200 -
+2023-11-11 02:14:20 [INFO]: 127.0.0.1 - - [11/Nov/2023 02:14:20] "[36mGET /static/css/dashboard_styles.css HTTP/1.1[0m" 304 -
+2023-11-11 02:14:23 [INFO]: 127.0.0.1 - - [11/Nov/2023 02:14:23] "GET /settings HTTP/1.1" 200 -
+2023-11-11 02:14:23 [INFO]: 127.0.0.1 - - [11/Nov/2023 02:14:23] "GET /static/css/settings_styles.css HTTP/1.1" 200 -
+2023-11-11 02:14:23 [INFO]: 127.0.0.1 - - [11/Nov/2023 02:14:23] "[36mGET /static/js/update_settings.js HTTP/1.1[0m" 304 -

@@ -1,10 +1,10 @@
 from flask import Flask, render_template, request, redirect, url_for, session
 from flask_session import Session
-from config import *
 from database import Database
 from bybit_client import BybitClient
 from log_module import CustomLogger
-
+from common import *
+from data_objects import *
 
 app = Flask(__name__)
 
@@ -64,11 +64,44 @@ def tv_webbhook(username):
             return
 
 
-@app.route('/')
+@app.route('/', methods=['GET', 'POST'])
 def index():
-    if 'username' in session:
-        return f"Welcome, {session['username']}!<br><a href='/logout'>Logout</a>"
-    return 'You are not logged in. <a href="/login">Login</a>'
+    if request.method == 'GET':
+        if 'username' in session:
+            username = session["username"]
+            current_date = get_current_date()
+
+            exchanges = []
+
+            exchange_name = "bybit"
+            exchange = Exchange()
+            exchange.name = exchange_name
+            user_settings = db.get_settings(username)
+            exchange.status = user_settings.bybit_bot_status
+            orders = db.get_all_completed_orders_by_date_and_exchange(username, current_date, exchange_name)
+            bybit_client = BybitClient(user_settings.bybit_apikey, user_settings.bybit_secret)
+            if(len(orders)>0):
+                exchange.starting_balance = orders[0].account_usdt_before_buy
+                exchange.symbol = orders[0].symbol
+                exchange.current_balance = float(bybit_client.get_balance("USDT"))
+                exchange.current_quantity = float(bybit_client.get_balance(exchange.symbol.replace("USDT","")))
+            for order in orders:
+                exchange.trades += 1
+                exchange.total_trading_fees = order.total_trading_fees
+                exchange.profit = order.profit
+            exchange.profit_percentage = round((exchange.profit / exchange.starting_balance) * 100, 5)
+            exchanges.append(exchange)
+
+            dashboard = {
+                "date": get_current_date(),
+                "time": get_current_time(),
+                "today_target": get_today_target(user_settings),
+                "target_achieved": exchange.profit_percentage,
+                "total_profit": exchange.profit
+            }
+
+            return render_template("dashboard.html", exchanges=exchanges, dashboard=dashboard)
+        return 'You are not logged in. <a href="/login">Login</a>'
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
@@ -125,6 +158,13 @@ def update_bybit_settings():
     db.update_bybit_settings(username, bybit_settings)
     return "done"
 
+@app.route('/trades', methods=['GET', 'POST'])
+def trades():
+    if request.method == 'GET':
+        username = session["username"]
+        current_date = get_current_date()
+        orders = db.get_all_completed_orders_by_date_and_exchange(username, current_date)
+        return render_template("trades.html",orders=orders)
 
 if __name__ == '__main__':
     app.secret_key = SECRET_KEY

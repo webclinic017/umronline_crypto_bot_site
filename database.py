@@ -92,8 +92,8 @@ class Database:
         try:
             with self.connection:
                 with self.connection.cursor() as cursor:
-                    cursor.execute("UPDATE orders SET account_usdt_before_sell = %s, exit_time = %s, sell_price = %s, sell_quantity = %s, account_usdt_after_sell = %s, total_trading_fees = %s, profit_percentage = %s, profit = %s WHERE id = %s",
-                                   (order.account_usdt_before_sell, order.exit_time, order.sell_price, order.sell_quantity, order.account_usdt_after_sell, order.total_trading_fees, order.profit_percentage, order.profit, order.id))
+                    cursor.execute("UPDATE orders SET status = %s, account_usdt_before_sell = %s, exit_time = %s, sell_price = %s, sell_quantity = %s, account_usdt_after_sell = %s, total_trading_fees = %s, profit_percentage = %s, profit = %s WHERE id = %s",
+                                   (order.status, order.account_usdt_before_sell, order.exit_time, order.sell_price, order.sell_quantity, order.account_usdt_after_sell, order.total_trading_fees, order.profit_percentage, order.profit, order.id))
             return True
         except Exception as e:
             logger.log('error', "db error - update_sell_order: " + str(e))
@@ -122,3 +122,36 @@ class Database:
         except Exception as e:
             logger.log('error', "db error - get_open_order: " + str(e))
             return False
+
+    def get_all_completed_orders_by_date_and_exchange(self, username, date, exchange="all"):
+        with self.connection:
+            with self.connection.cursor() as cursor:
+                if(exchange == "all"):
+                    cursor.execute("SELECT * FROM orders WHERE username = %s AND DATE(entry_time) = %s AND status = 'sold' ORDER BY entry_time ASC", (username, date))
+                else:
+                    cursor.execute("SELECT * FROM orders WHERE username = %s AND exchange = %s AND DATE(entry_time) = %s AND status = 'sold' ORDER BY entry_time ASC", (username, exchange, date))
+                order_results = cursor.fetchall()
+                orders = []
+                for order_result in order_results:
+                    order = Order()
+                    order.id = order_result[0]
+                    order.username = order_result[1]
+                    order.exchange = order_result[2]
+                    order.status = order_result[3]
+                    order.order_value = self.make_float(order_result[4])
+                    order.symbol = order_result[5]
+                    order.buy_quantity = self.make_float(order_result[6])
+                    order.type = order_result[7]
+                    order.account_usdt_before_buy = self.make_float(order_result[8])
+                    order.entry_time = order_result[9]
+                    order.buy_price = self.make_float(order_result[10])
+                    order.account_usdt_before_sell = self.make_float(order_result[11])
+                    order.exit_time = order_result[12]
+                    order.sell_price = self.make_float(order_result[13])
+                    order.sell_quantity = self.make_float(order_result[14])
+                    order.account_usdt_after_sell = self.make_float(order_result[15])
+                    order.total_trading_fees = self.make_float(order_result[16])
+                    order.profit_percentage = self.make_float(order_result[17])
+                    order.profit = self.make_float(order_result[18])
+                    orders.append(order)
+        return orders
