@@ -2,8 +2,9 @@ from data_objects import *
 import psycopg2
 import config
 from log_module import CustomLogger
+from config import *
 
-logger = CustomLogger("app.log")
+logger = CustomLogger(LOG_FILE)
 
 class Database:
     def __init__(self):
@@ -81,8 +82,8 @@ class Database:
         try:
             with self.connection:
                 with self.connection.cursor() as cursor:
-                    cursor.execute("INSERT INTO orders (username, exchange, status, order_value, symbol, buy_quantity, type, account_usdt_before_buy, entry_time, buy_price) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)",
-                                   (order.username, order.exchange, order.status, order.order_value, order.symbol, order.buy_quantity, order.type, order.account_usdt_before_buy, order.entry_time, order.buy_price))
+                    cursor.execute("INSERT INTO orders (username, exchange, status, order_value, symbol, buy_quantity, type, account_usdt_before_buy, entry_time, buy_price, total_trading_fees) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)",
+                                   (order.username, order.exchange, order.status, order.order_value, order.symbol, order.buy_quantity, order.type, order.account_usdt_before_buy, order.entry_time, order.buy_price, order.total_trading_fees))
             return True
         except Exception as e:
             logger.log('error', "db error - add_buy_order: " + str(e))
@@ -123,13 +124,13 @@ class Database:
             logger.log('error', "db error - get_open_order: " + str(e))
             return False
 
-    def get_all_completed_orders_by_date_and_exchange(self, username, date, exchange="all"):
+    def get_all_orders_by_date_and_exchange(self, username, date, exchange="all"):
         with self.connection:
             with self.connection.cursor() as cursor:
                 if(exchange == "all"):
-                    cursor.execute("SELECT * FROM orders WHERE username = %s AND DATE(entry_time) = %s AND status = 'sold' ORDER BY entry_time ASC", (username, date))
+                    cursor.execute("SELECT * FROM orders WHERE username = %s AND DATE(entry_time) = %s ORDER BY entry_time ASC", (username, date))
                 else:
-                    cursor.execute("SELECT * FROM orders WHERE username = %s AND exchange = %s AND DATE(entry_time) = %s AND status = 'sold' ORDER BY entry_time ASC", (username, exchange, date))
+                    cursor.execute("SELECT * FROM orders WHERE username = %s AND exchange = %s AND DATE(entry_time) = %s ORDER BY entry_time ASC", (username, exchange, date))
                 order_results = cursor.fetchall()
                 orders = []
                 for order_result in order_results:

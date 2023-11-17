@@ -12,3 +12,13 @@ th, td {
 th {
     background-color: #f2f2f2;
 }
+
+.positive-profit {
+    color: #1ab81a;
+    font-weight: bold;
+}
+
+.negative-profit {
+    color: red;
+    font-weight: bold;
+}

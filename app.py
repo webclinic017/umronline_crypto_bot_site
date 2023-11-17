@@ -16,7 +16,7 @@ Session(app)
 db = Database()
 db.connect()
 
-logger = CustomLogger("app.log")
+logger = CustomLogger(LOG_FILE)
 
 @app.route('/tv_webbhook/<username>', methods=['POST'])
 def tv_webbhook(username):
@@ -33,6 +33,7 @@ def tv_webbhook(username):
         if(order != False):
             order.account_usdt_before_buy = account_usdt_before_buy
             order.username = username
+            order.total_trading_fees = order.order_value * 0.001
             if(db.add_buy_order(order)):
                 return "done"
             return
@@ -78,29 +79,36 @@ def index():
             exchange.name = exchange_name
             user_settings = db.get_settings(username)
             exchange.status = user_settings.bybit_bot_status
-            orders = db.get_all_completed_orders_by_date_and_exchange(username, current_date, exchange_name)
+            orders = db.get_all_orders_by_date_and_exchange(username, current_date, exchange_name)
             bybit_client = BybitClient(user_settings.bybit_apikey, user_settings.bybit_secret)
+            exchange.current_balance = round(float(bybit_client.get_balance("USDT")),5)
+            order_summary = get_summary_of_orders(orders)
+            exchange.trades = order_summary["total_trades"]
+            exchange.profit = order_summary["total_profit"]
+            exchange.total_trading_fees = order_summary["total_trading_fees"]
             if(len(orders)>0):
-                exchange.starting_balance = orders[0].account_usdt_before_buy
+                exchange.starting_balance = round(orders[0].account_usdt_before_buy,5)
                 exchange.symbol = orders[0].symbol
-                exchange.current_balance = float(bybit_client.get_balance("USDT"))
-                exchange.current_quantity = float(bybit_client.get_balance(exchange.symbol.replace("USDT","")))
-            for order in orders:
-                exchange.trades += 1
-                exchange.total_trading_fees = order.total_trading_fees
-                exchange.profit = order.profit
-            exchange.profit_percentage = round((exchange.profit / exchange.starting_balance) * 100, 5)
+                exchange.profit_percentage = round((exchange.profit / exchange.starting_balance) * 100, 5)
+                exchange.current_quantity = float(bybit_client.get_balance(exchange.symbol.replace("USDT", "")))
+            else:
+                exchange.starting_balance = round(exchange.current_balance,5)
             exchanges.append(exchange)
 
             dashboard = {
-                "date": get_current_date(),
-                "time": get_current_time(),
+                "date": get_current_date_beautified(),
+                "time": get_current_time_beautified(),
                 "today_target": get_today_target(user_settings),
                 "target_achieved": exchange.profit_percentage,
                 "total_profit": exchange.profit
             }
+            try:
+                logs = extract_logs_for_today()
+            except Exception as e:
+                logger.log('error', "dashboard page issue: " + str(e))
+                logs = ""
 
-            return render_template("dashboard.html", exchanges=exchanges, dashboard=dashboard)
+            return render_template("dashboard.html", exchanges=exchanges, dashboard=dashboard, username=username, logs=logs)
         return 'You are not logged in. <a href="/login">Login</a>'
 
 @app.route('/login', methods=['GET', 'POST'])
@@ -160,11 +168,29 @@ def update_bybit_settings():
 
 @app.route('/trades', methods=['GET', 'POST'])
 def trades():
-    if request.method == 'GET':
-        username = session["username"]
-        current_date = get_current_date()
-        orders = db.get_all_completed_orders_by_date_and_exchange(username, current_date)
-        return render_template("trades.html",orders=orders)
+    if request.method == 'POST':
+        date = request.form.get('date_input')
+    elif request.method == 'GET':
+        date = get_current_date()
+    username = session["username"]
+    user_settings = db.get_settings(username)
+    orders = db.get_all_orders_by_date_and_exchange(username, date)
+    order_summary = get_summary_of_orders(orders)
+    total_profit = order_summary["total_profit"]
+    if (len(orders) > 0):
+        profit = round(total_profit,5)
+        profit_percentage = round((profit / orders[0].account_usdt_before_buy) * 100,5)
+    else:
+        profit = 0
+        profit_percentage = 0
+    trades = {
+        "date_raw": date,
+        "date": beautify_date(date),
+        "target": get_target(date, user_settings),
+        "target_achieved": profit_percentage,
+        "total_profit": profit
+    }
+    return render_template("trades.html",orders=orders, trades=trades)
 
 if __name__ == '__main__':
     app.secret_key = SECRET_KEY

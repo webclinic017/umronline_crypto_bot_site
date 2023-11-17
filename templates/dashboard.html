@@ -5,14 +5,13 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/dashboard_styles.css') }}">
 </head>
 <body>
-    <p>Welcome<br><a href='/logout'>Logout</a></p>
-    <br>
-    <br>
+    <p>Welcome {{username}}, <a href='/logout'>Logout</a>   <a href='/trades'>Trades</a>   <a href='/settings'>Settings</a></p>
+    <h1>Dashboard</h1>
     <p>Date: {{dashboard.date}}</p>
     <p>Time: {{dashboard.time}}</p>
     <p>Today’s Target: {{dashboard.today_target}} %</p>
     <p>Target Achieved: {{dashboard.target_achieved}} %</p>
-    <p>Total Profit: {{dashboard.total_profit}}</p>
+    <p>Total Profit: <span class="{% if dashboard.total_profit > 0 %}positive-profit{% else %}negative-profit{% endif %}">$ {{dashboard.total_profit}}</span></p>
     <br>
     <br>
     <table>
@@ -43,5 +42,11 @@
         </tr>
         {% endfor %}
     </table>
+    <br>
+    <h3>Logs</h3>
+    <div class="scrollable-area">
+        <pre>{{ logs }}</pre>
+    </div>
+    <script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
 </body>
 </html>

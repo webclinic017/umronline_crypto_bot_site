@@ -4,7 +4,7 @@ from data_objects import *
 from common import *
 import math
 
-logger = CustomLogger("app.log")
+logger = CustomLogger(LOG_FILE)
 class BybitClient:
     def __init__(self, BYBIT_API_KEY, BYBIT_SECRET_KEY):
         self.client = HTTP(testnet=False, api_key=BYBIT_API_KEY, api_secret=BYBIT_SECRET_KEY)
