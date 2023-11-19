@@ -73,8 +73,8 @@ class Database:
     def update_bybit_settings(self, username, bybit_settings):
         with self.connection:
             with self.connection.cursor() as cursor:
-                cursor.execute("UPDATE settings SET bybit_stoploss = %s, bybit_ordersize = %s, bybit_apikey = %s, bybit_secret = %s WHERE username = %s",
-                               (float(bybit_settings["stop_loss"]), float(bybit_settings["order_size"]), bybit_settings["api_key"], bybit_settings["secret"], username, ))
+                cursor.execute("UPDATE settings SET bybit_stoploss = %s, bybit_ordersize = %s, bybit_apikey = %s, bybit_secret = %s, bybit_bot_status = %s WHERE username = %s",
+                               (float(bybit_settings["stop_loss"]), float(bybit_settings["order_size"]), bybit_settings["api_key"], bybit_settings["secret"], bybit_settings["bot_status"], username, ))
         self.connection.commit()
         return True
 

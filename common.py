@@ -71,6 +71,10 @@ def get_current_day():
     current_day = current_time.strftime('%A').lower()
     return current_day
 
+def beautify_datetime(input_time):
+    formatted_time = input_time.strftime('%m/%d@%I:%M%p')
+    return formatted_time
+
 def get_target(date_str, setting):
     current_date = datetime.strptime(date_str, '%Y-%m-%d')
     current_day = current_date.strftime('%A').lower()

@@ -34,13 +34,15 @@ document.getElementById('bybitUpdateButton').addEventListener('click', function 
     var trading_type = document.getElementById('trading_type').value;
     var stop_loss = document.getElementById('stop_loss').value;
     var order_size = document.getElementById('order_size').value;
+    var bot_status = document.getElementById('bot_status').value;
 
     var data = {
         api_key: api_key,
         secret: secret,
         trading_type: trading_type,
         stop_loss: stop_loss,
-        order_size: order_size
+        order_size: order_size,
+        bot_status: bot_status
     };
 
     fetch('/update_bybit_settings', {

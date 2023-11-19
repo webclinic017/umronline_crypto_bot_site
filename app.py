@@ -147,7 +147,8 @@ def settings():
             "SECRET": user_settings.bybit_secret,
             "STOP_LOSS": user_settings.bybit_stoploss,
             "ORDER_SIZE": user_settings.bybit_ordersize,
-            "BYBIT_BOT_STATUS": user_settings.bybit_bot_status
+            "BYBIT_BOT_STATUS": user_settings.bybit_bot_status,
+            "STATUS": user_settings.bybit_bot_status
         }
         return render_template("settings.html", user_target_settings=user_target_settings, target_days=TARGET_DAYS, target_values=TARGET_VALUES, bybit_config=bybit_config, stoploss_values=STOPLOSS_VALUES, ordersize_values=ORDERSIZE_VALUES)
     return 'You are not logged in. <a href="/login">Login</a>'
@@ -175,6 +176,9 @@ def trades():
     username = session["username"]
     user_settings = db.get_settings(username)
     orders = db.get_all_orders_by_date_and_exchange(username, date)
+    for order in orders:
+        order.entry_time = beautify_datetime(order.entry_time)
+        order.exit_time = beautify_datetime(order.exit_time)
     order_summary = get_summary_of_orders(orders)
     total_profit = order_summary["total_profit"]
     if (len(orders) > 0):
