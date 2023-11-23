@@ -19,26 +19,26 @@
             <th>Exchange</th>
             <th>Status</th>
             <th>Coin</th>
-            <th>Starting Balance $</th>
+            <th>Starting Balance</th>
             <th>Current Quantity</th>
-            <th>Current Balance $</th>
+            <th>Current Balance</th>
             <th>Trades</th>
-            <th>Total Trading Fees $</th>
+            <th>Total Trading Fees</th>
             <th>% Profit</th>
-            <th>Profit $</th>
+            <th>Profit</th>
         </tr>
         {% for exchange in exchanges %}
         <tr>
             <td>{{ exchange.name }}</td>
             <td>{{ exchange.status }}</td>
             <td>{{ exchange.symbol }}</td>
-            <td>{{ exchange.starting_balance }}</td>
+            <td>{{ exchange.starting_balance }} $</td>
             <td>{{ exchange.current_quantity }}</td>
-            <td>{{ exchange.current_balance }}</td>
+            <td>{{ exchange.current_balance }} $</td>
             <td>{{ exchange.trades }}</td>
-            <td>{{ exchange.total_trading_fees }}</td>
+            <td>{{ exchange.total_trading_fees }} $</td>
             <td>{{ exchange.profit_percentage }}</td>
-            <td>{{ exchange.profit }}</td>
+            <td><span class="{% if exchange.profit > 0 %}positive-profit{% else %}negative-profit{% endif %}">{{ exchange.profit }} $</span></td>
         </tr>
         {% endfor %}
     </table>

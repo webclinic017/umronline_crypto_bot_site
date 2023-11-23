@@ -14,6 +14,11 @@
     <br>
     <br>
     <form method="POST" action="/trades">
+        <label for="exchange_input">Exchange:</label>
+        <select id="exchange_input" name="exchange_input" required>
+            <option value="All" selected>All</option>
+            <option value="Bybit">Bybit</option>
+        </select>
         <label for="date_input">Date:</label>
         <input type="text" id="date_input" name="date_input" value="{{ trades.date_raw }}" required>
         <button type="submit">Update</button>
@@ -24,32 +29,32 @@
             <th>No</th>
             <th>Exchange</th>
             <th>Coin</th>
-            <th>Order value $</th>
+            <th>Order value</th>
             <th>Type</th>
             <th>Entry time</th>
-            <th>Buy Price $</th>
+            <th>Buy Price</th>
             <th>Quantity</th>
             <th>Exit time</th>
-            <th>Sell Price $</th>
-            <th>Total Trading Fees $</th>
+            <th>Sell Price</th>
+            <th>Total Trading Fees</th>
             <th>% Profit</th>
-            <th>Profit $</th>
+            <th>Profit</th>
         </tr>
         {% for order in orders %}
         <tr>
             <td>{{ loop.index }}</td>
             <td>{{ order.exchange }}</td>
             <td>{{ order.symbol }}</td>
-            <td>{{ order.order_value }}</td>
+            <td>{{ order.order_value }} $</td>
             <td>{{ order.type }}</td>
             <td>{{ order.entry_time }}</td>
-            <td>{{ order.buy_price }}</td>
+            <td>{{ order.buy_price }} $</td>
             <td>{{ order.buy_quantity }}</td>
             <td>{{ order.exit_time }}</td>
-            <td>{{ order.sell_price }}</td>
-            <td>{{ order.total_trading_fees }}</td>
+            <td>{{ order.sell_price }} $</td>
+            <td>{{ order.total_trading_fees }} $</td>
             <td>{{ order.profit_percentage }}</td>
-            <td>{{ order.profit }}</td>
+            <td><span class="{% if order.profit > 0 %}positive-profit{% else %}negative-profit{% endif %}">{{ order.profit }} $</span></td>
         </tr>
         {% endfor %}
     </table>

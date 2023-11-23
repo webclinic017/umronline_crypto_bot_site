@@ -43,7 +43,9 @@ def get_current_datetime():
 
 def get_current_date_beautified():
     current_date = get_current_datetime_object()
-    formatted_time = f"{current_date.strftime('%A')} ~ {current_date.strftime('%B')} {current_date.strftime('%d')}"
+    day = current_date.day
+    suffix = "th" if 11 <= day <= 13 else {1: "st", 2: "nd", 3: "rd"}.get(day % 10, "th")
+    formatted_time = f"{current_date.strftime('%A')} ~ {current_date.strftime('%B')} {day}{suffix}"
     return formatted_time
 
 def get_current_time_beautified():
@@ -53,8 +55,10 @@ def get_current_time_beautified():
 
 def beautify_date(date_str):
     current_date = datetime.strptime(date_str, '%Y-%m-%d')
-    formatted_date = f"{current_date.strftime('%A')} ~ {current_date.strftime('%B')} {current_date.strftime('%d')}"
-    return formatted_date
+    day = current_date.day
+    suffix = "th" if 11 <= day <= 13 else {1: "st", 2: "nd", 3: "rd"}.get(day % 10, "th")
+    formatted_time = f"{current_date.strftime('%A')} ~ {current_date.strftime('%B')} {day}{suffix}"
+    return formatted_time
 
 def get_current_date():
     current_time = get_current_datetime_object()
@@ -72,8 +76,11 @@ def get_current_day():
     return current_day
 
 def beautify_datetime(input_time):
-    formatted_time = input_time.strftime('%m/%d@%I:%M%p')
-    return formatted_time
+    try:
+        formatted_time = input_time.strftime('%m/%d@%I:%M%p')
+        return formatted_time
+    except:
+        return None
 
 def get_target(date_str, setting):
     current_date = datetime.strptime(date_str, '%Y-%m-%d')
