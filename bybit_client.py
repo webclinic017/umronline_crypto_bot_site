@@ -61,6 +61,9 @@ class BybitClient:
             return False
 
     def get_balance(self, coin):
-        balance = self.client.get_wallet_balance(accountType="spot", coin=coin)
-        coin_amount = float(balance["result"]["list"][0]["coin"][0]["free"])
-        return coin_amount
+        try:
+            balance = self.client.get_wallet_balance(accountType="spot", coin=coin)
+            coin_amount = float(balance["result"]["list"][0]["coin"][0]["free"])
+            return coin_amount
+        except:
+            return 0

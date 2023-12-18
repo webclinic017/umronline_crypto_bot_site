@@ -1,0 +1,24 @@
+sudo apt update
+sudo apt install postgresql postgresql-contrib
+
+sudo -u postgres psql
+create database umronline_db;
+CREATE USER umronline WITH PASSWORD 'youmronly';
+ALTER DATABASE umronline_db OWNER TO umronline;
+
+psql -U umronline -d umronline_db -a -f sql_scripts.sql
+
+linux server specials ->
+--------
+could not change directory to "/home/corey/scripts": Permission denied
+>>>
+use \temp directory to create the project repo. otherwise postgres user cannot access sql_scripts.sql to run 'psql -U umronline -d umronline_db -a -f sql_scripts.sql' command.
+--------
+psql: error: connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL: Peer authentication failed for user "postgres" (Ubuntu)
+>>>
+# "local" is for Unix domain socket connections only
+local   all             all                                     md5                                 <- change to md5 from peer
+
+linux ->
+sudo apt-get install libpq-dev
+pip install -r requirements
