@@ -26,7 +26,9 @@ CREATE TABLE settings (
     bybit_bot_status VARCHAR(20)
 );
 INSERT INTO settings (username, target_monday, target_tuesday, target_wednesday, target_thursday, target_friday, target_saturday, target_sunday, bybit_stoploss, bybit_ordersize, bybit_apikey, bybit_secret, bybit_trading_type, bybit_bot_status)
-VALUES ('gg', 1, 1, 1, 1, 1, 1, 1, 1, 50, 'G9egFxxxqtEVw3Lwjf', 'Lo8Ix1J0lIG3kKdc8psJkGaAsohePQkAVTjX', 'market', 'active');
+VALUES ('gg', 1, 1, 1, 1, 1, 1, 1, 1, 50, 'gggggggggg', 'hhhhhhhhhhhhh', 'market', 'active');
+INSERT INTO settings (username, target_monday, target_tuesday, target_wednesday, target_thursday, target_friday, target_saturday, target_sunday, bybit_stoploss, bybit_ordersize, bybit_apikey, bybit_secret, bybit_trading_type, bybit_bot_status)
+VALUES ('umronline', 1, 1, 1, 1, 1, 1, 1, 1, 50, 'apikey', 'apisecret', 'market', 'active');
 
 DROP TABLE orders;
 CREATE TABLE orders (
